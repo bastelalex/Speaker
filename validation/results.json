@@ -1,0 +1,1266 @@
+{
+  "campaign": "1.0",
+  "date": "2026-11-12",
+  "air": {
+    "c_m_per_s": 343.0,
+    "rho_kg_per_m3": 1.204
+  },
+  "source_velocity_peak_m_per_s": 0.01,
+  "screening": [
+    {
+      "id": "single",
+      "title": "Einzel-Waveguide",
+      "driver_id": "lavoce-dn1020-16",
+      "driver_model": "DN10.20-16",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN10.20-16",
+      "band_hz": [
+        1200,
+        18000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": true,
+      "blocker": "",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 503.4578908461156,
+      "driver_exit_area_mm2": 506.7074790974977,
+      "area_ratio_to_driver": 0.9935868555617732,
+      "minimum_air_area_mm2": 503.4578908461156,
+      "outlet_area_total_mm2": 58092.758275236316,
+      "intended_outlet_area_total_mm2": 58707.649317197705,
+      "outlet_tessellation_area_error_fraction": 0.010473780659128962,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        210.0
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 7914.211847335752,
+      "max_power_identity_error": 6.0285110237146e-14,
+      "primary_1d_reflection_abs_band_median": 0.11820640098460707,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 210.0,
+          "inlet_mm2": 503.4578908461156,
+          "outlet_mm2": 58092.758275236316
+        }
+      ],
+      "validation_status": "1D-Screening; räumlicher Nachweis offen"
+    },
+    {
+      "id": "rocket",
+      "title": "Raketen-Ringkanal",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN20.30TK",
+      "band_hz": [
+        800,
+        20000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": true,
+      "blocker": "",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 1950.9032252265263,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.9935868537239132,
+      "minimum_air_area_mm2": 1950.9032252265263,
+      "outlet_area_total_mm2": 61180.3250533136,
+      "intended_outlet_area_total_mm2": 61575.216010359945,
+      "outlet_tessellation_area_error_fraction": 0.006413147734307678,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        240.0000000000001
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 5.850875339774575e-14,
+      "primary_1d_reflection_abs_band_median": 0.055452329915203914,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 240.0000000000001,
+          "inlet_mm2": 1950.9032252265263,
+          "outlet_mm2": 61180.3250533136
+        }
+      ],
+      "validation_status": "2D-Teilnachweis 0,8/1,2/2/4/8 kHz"
+    },
+    {
+      "id": "axe",
+      "title": "Axtkopf-Zweikanal",
+      "driver_id": "lavoce-dn1020-16",
+      "driver_model": "DN10.20-16",
+      "driver_count": 1,
+      "original_driver_reference": "JBL 2426H",
+      "band_hz": [
+        1200,
+        18000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": false,
+      "blocker": "25,4-mm-LaVoce auf 25-mm-Port: Übergang nötig; Innenkörperhalterung fehlt.",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 487.7258086822425,
+      "driver_exit_area_mm2": 506.7074790974977,
+      "area_ratio_to_driver": 0.9625391943117483,
+      "minimum_air_area_mm2": 487.7258086822425,
+      "outlet_area_total_mm2": 68180.58728839559,
+      "intended_outlet_area_total_mm2": 68883.64186551196,
+      "outlet_tessellation_area_error_fraction": 0.010206408344219264,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        230.0
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 7914.211847335752,
+      "max_power_identity_error": 6.306066779870889e-14,
+      "primary_1d_reflection_abs_band_median": 0.12204939763782954,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 230.0,
+          "inlet_mm2": 487.7258086822425,
+          "outlet_mm2": 68180.58728839559
+        }
+      ],
+      "validation_status": "Adapter / Verteiler fehlt"
+    },
+    {
+      "id": "multi",
+      "title": "Multicell 3 × 2",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "JBL 2446H als Quelle eines noch auszulegenden Verteilers",
+      "band_hz": [
+        1000,
+        16000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": false,
+      "blocker": "Gemeinsamer Verteiler fehlt; sechs einzelne 18-mm-Ports sind kein 50-mm-Anschluss.",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 6,
+      "inlet_area_total_mm2": 1509.4326519520307,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.7687477370319171,
+      "minimum_air_area_mm2": 251.57210865867157,
+      "outlet_area_total_mm2": 57831.10189128105,
+      "intended_outlet_area_total_mm2": 58707.64931719769,
+      "outlet_tessellation_area_error_fraction": 0.01493071918415012,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        237.1902864790209,
+        231.45592755425383,
+        237.1902864790209,
+        237.1902864790209,
+        231.45592755425386,
+        237.1902864790209
+      ],
+      "cell_path_span_mm": 5.734358924767063,
+      "geometric_phase_proxy_deg_at_bandtop": 96.29710614186088,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 4.163336342344337e-14,
+      "primary_1d_reflection_abs_band_median": 0.07219956246391256,
+      "components": [
+        {
+          "name": "cell_1_1",
+          "path_mm": 237.1902864790209,
+          "inlet_mm2": 251.57210865867188,
+          "outlet_mm2": 9638.516981880175
+        },
+        {
+          "name": "cell_2_1",
+          "path_mm": 231.45592755425383,
+          "inlet_mm2": 251.57210865867188,
+          "outlet_mm2": 9638.516981880175
+        },
+        {
+          "name": "cell_3_1",
+          "path_mm": 237.1902864790209,
+          "inlet_mm2": 251.57210865867157,
+          "outlet_mm2": 9638.516981880173
+        },
+        {
+          "name": "cell_1_2",
+          "path_mm": 237.1902864790209,
+          "inlet_mm2": 251.57210865867157,
+          "outlet_mm2": 9638.516981880173
+        },
+        {
+          "name": "cell_2_2",
+          "path_mm": 231.45592755425386,
+          "inlet_mm2": 251.57210865867188,
+          "outlet_mm2": 9638.516981880175
+        },
+        {
+          "name": "cell_3_2",
+          "path_mm": 237.1902864790209,
+          "inlet_mm2": 251.57210865867188,
+          "outlet_mm2": 9638.516981880173
+        }
+      ],
+      "validation_status": "Adapter / Verteiler fehlt"
+    },
+    {
+      "id": "poly",
+      "title": "Polycell mit geschwenkten Zellen",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN20.30TK über einen noch auszulegenden Verteiler",
+      "band_hz": [
+        1600,
+        16000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": false,
+      "blocker": "Verteiler und Laufwegausgleich fehlen; sechs einzelne 18-mm-Ports.",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 6,
+      "inlet_area_total_mm2": 1509.4326514076004,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.768747736754641,
+      "minimum_air_area_mm2": 251.57210856793273,
+      "outlet_area_total_mm2": 57831.10189464265,
+      "intended_outlet_area_total_mm2": 58707.64931719769,
+      "outlet_tessellation_area_error_fraction": 0.014930719126890146,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        260.05149451523414,
+        252.05578011525054,
+        260.05149451523414,
+        260.0514945152342,
+        252.05578011525054,
+        260.0514945152342
+      ],
+      "cell_path_span_mm": 7.995714399983644,
+      "geometric_phase_proxy_deg_at_bandtop": 134.27205523004602,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 4.04121180963557e-14,
+      "primary_1d_reflection_abs_band_median": 0.07159633445816636,
+      "components": [
+        {
+          "name": "cell_1_1",
+          "path_mm": 260.05149451523414,
+          "inlet_mm2": 251.57210856793415,
+          "outlet_mm2": 9638.51698244044
+        },
+        {
+          "name": "cell_2_1",
+          "path_mm": 252.05578011525054,
+          "inlet_mm2": 251.57210856793333,
+          "outlet_mm2": 9638.516982440444
+        },
+        {
+          "name": "cell_3_1",
+          "path_mm": 260.05149451523414,
+          "inlet_mm2": 251.57210856793273,
+          "outlet_mm2": 9638.516982440442
+        },
+        {
+          "name": "cell_1_2",
+          "path_mm": 260.0514945152342,
+          "inlet_mm2": 251.57210856793273,
+          "outlet_mm2": 9638.516982440444
+        },
+        {
+          "name": "cell_2_2",
+          "path_mm": 252.05578011525054,
+          "inlet_mm2": 251.57210856793338,
+          "outlet_mm2": 9638.51698244044
+        },
+        {
+          "name": "cell_3_2",
+          "path_mm": 260.0514945152342,
+          "inlet_mm2": 251.57210856793415,
+          "outlet_mm2": 9638.51698244044
+        }
+      ],
+      "validation_status": "Adapter / Verteiler fehlt"
+    },
+    {
+      "id": "manifold",
+      "title": "Mehrtreiber-Manifold · Explosionsmodell",
+      "driver_id": "lavoce-dn1020-16",
+      "driver_model": "DN10.20-16",
+      "driver_count": 3,
+      "original_driver_reference": "3 × JBL 2426H als Konzeptquellen",
+      "band_hz": [
+        2000,
+        16000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": false,
+      "blocker": "30-mm-Explosionsspalt und fehlende Zusammenführung; drei 25,4→25-mm-Übergänge fehlen.",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 4,
+      "inlet_area_total_mm2": 1455.8571849338502,
+      "driver_exit_area_mm2": 1520.122437292493,
+      "area_ratio_to_driver": 0.9577236341086404,
+      "minimum_air_area_mm2": 485.2857283112834,
+      "outlet_area_total_mm2": 52206.9800212256,
+      "intended_outlet_area_total_mm2": 52836.884385477926,
+      "outlet_tessellation_area_error_fraction": 0.011921678796516066,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        160.0,
+        160.0,
+        160.0,
+        200.00000000000003
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 7914.211847335752,
+      "max_power_identity_error": 5.784261958297066e-14,
+      "primary_1d_reflection_abs_band_median": 0.09679686629627744,
+      "components": [
+        {
+          "name": "input_1",
+          "path_mm": 160.0,
+          "inlet_mm2": 485.2857283112834,
+          "outlet_mm2": 1011.2022304417515
+        },
+        {
+          "name": "input_2",
+          "path_mm": 160.0,
+          "inlet_mm2": 485.28572831128344,
+          "outlet_mm2": 1011.2022304417513
+        },
+        {
+          "name": "input_3",
+          "path_mm": 160.0,
+          "inlet_mm2": 485.2857283112834,
+          "outlet_mm2": 1011.2022304417513
+        },
+        {
+          "name": "common_horn",
+          "path_mm": 200.00000000000003,
+          "inlet_mm2": 4451.836095388512,
+          "outlet_mm2": 52206.9800212256
+        }
+      ],
+      "validation_status": "Adapter / Verteiler fehlt"
+    },
+    {
+      "id": "round-conical",
+      "title": "Runder Konus",
+      "driver_id": "lavoce-dn1020-16",
+      "driver_model": "DN10.20-16",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN10.20-16",
+      "band_hz": [
+        1200,
+        18000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": true,
+      "blocker": "",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 503.4578923301678,
+      "driver_exit_area_mm2": 506.7074790974977,
+      "area_ratio_to_driver": 0.9935868584905876,
+      "minimum_air_area_mm2": 503.4578923301678,
+      "outlet_area_total_mm2": 52752.42296909907,
+      "intended_outlet_area_total_mm2": 53092.9158456675,
+      "outlet_tessellation_area_error_fraction": 0.00641315081579219,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        160.0
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 7914.211847335752,
+      "max_power_identity_error": 5.88418203051333e-14,
+      "primary_1d_reflection_abs_band_median": 0.1570699647193087,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 160.0,
+          "inlet_mm2": 503.4578923301678,
+          "outlet_mm2": 52752.42296909907
+        }
+      ],
+      "validation_status": "2D-Teilnachweis; 8-kHz-Richtwirkung nicht konvergiert"
+    },
+    {
+      "id": "round-os",
+      "title": "Rundes OS-Profil",
+      "driver_id": "lavoce-dn1020-16",
+      "driver_model": "DN10.20-16",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN10.20-16",
+      "band_hz": [
+        1200,
+        18000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": true,
+      "blocker": "",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 503.45789056007385,
+      "driver_exit_area_mm2": 506.7074790974977,
+      "area_ratio_to_driver": 0.9935868549972624,
+      "minimum_air_area_mm2": 503.45789056007385,
+      "outlet_area_total_mm2": 61683.782964857106,
+      "intended_outlet_area_total_mm2": 62082.051116658986,
+      "outlet_tessellation_area_error_fraction": 0.006415189972597601,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        140.00000000000006
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 7914.211847335752,
+      "max_power_identity_error": 5.96189764223709e-14,
+      "primary_1d_reflection_abs_band_median": 0.1268881040866166,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 140.00000000000006,
+          "inlet_mm2": 503.45789056007385,
+          "outlet_mm2": 61683.782964857106
+        }
+      ],
+      "validation_status": "2D-Teilnachweis 1,2/2/4/8 kHz"
+    },
+    {
+      "id": "oval",
+      "title": "Ovaler / elliptischer Waveguide",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN20.30TK",
+      "band_hz": [
+        800,
+        20000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": true,
+      "blocker": "",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 1950.9032252030418,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.9935868537119525,
+      "minimum_air_area_mm2": 1950.9032252030418,
+      "outlet_area_total_mm2": 50299.97589654478,
+      "intended_outlet_area_total_mm2": 50893.80098815465,
+      "outlet_tessellation_area_error_fraction": 0.011667925760704745,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        220.00000000000009
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 5.950795411990839e-14,
+      "primary_1d_reflection_abs_band_median": 0.05167263495256343,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 220.00000000000009,
+          "inlet_mm2": 1950.9032252030418,
+          "outlet_mm2": 50299.97589654478
+        }
+      ],
+      "validation_status": "1D-Screening; räumlicher Nachweis offen"
+    },
+    {
+      "id": "superellipse",
+      "title": "Superelliptischer Übergang",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "JBL 2446H",
+      "band_hz": [
+        800,
+        20000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": false,
+      "blocker": "50-mm-LaVoce auf 49-mm-Port: glatter Übergang nötig.",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 1873.6474812743206,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.9542408264207601,
+      "minimum_air_area_mm2": 1873.6474812743206,
+      "outlet_area_total_mm2": 72703.90855119699,
+      "intended_outlet_area_total_mm2": 73421.35722113436,
+      "outlet_tessellation_area_error_fraction": 0.009771661776511675,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        210.0
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": null,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 6.150635556423367e-14,
+      "primary_1d_reflection_abs_band_median": 0.06018464743669196,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 210.0,
+          "inlet_mm2": 1873.6474812743206,
+          "outlet_mm2": 72703.90855119699
+        }
+      ],
+      "validation_status": "Adapter / Verteiler fehlt"
+    },
+    {
+      "id": "prism",
+      "title": "Prismatischer Rechteck-Waveformer",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN20.30TK mit zusätzlichem Rund-auf-Rechteck-Adapter",
+      "band_hz": [
+        800,
+        20000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": false,
+      "blocker": "Runder 50-mm-Eingang auf 40 × 24 mm: nicht vorhandener Adapter mit erheblicher Flächenreduktion.",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 960.0000034666667,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.48892398694386136,
+      "minimum_air_area_mm2": 960.0000034666667,
+      "outlet_area_total_mm2": 14399.999988533333,
+      "intended_outlet_area_total_mm2": 14400,
+      "outlet_tessellation_area_error_fraction": 7.962963621821473e-10,
+      "terminal_area_contraction_fraction": 0.0,
+      "channel_lengths_mm": [
+        180.00000000000003
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": 26.697847110220295,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 5.917488721252084e-14,
+      "primary_1d_reflection_abs_band_median": 0.04832776924531425,
+      "components": [
+        {
+          "name": "prismatic_shell",
+          "path_mm": 180.00000000000003,
+          "inlet_mm2": 960.0000034666667,
+          "outlet_mm2": 14399.999988533333
+        }
+      ],
+      "validation_status": "Adapter / Verteiler fehlt"
+    },
+    {
+      "id": "round-slot",
+      "title": "Rund-auf-Schlitz-Waveformer",
+      "driver_id": "lavoce-dn2030tk",
+      "driver_model": "DN20.30TK",
+      "driver_count": 1,
+      "original_driver_reference": "LaVoce DN20.30TK als runde Eingangsquelle",
+      "band_hz": [
+        800,
+        20000
+      ],
+      "source_model": "uniform prescribed acoustic velocity; no electromechanical LaVoce model",
+      "continuous_existing_air_path": true,
+      "blocker": "",
+      "simulation_scope": "individual existing component; no complete electroacoustic driver system",
+      "component_count": 1,
+      "inlet_area_total_mm2": 1950.903220627034,
+      "driver_exit_area_mm2": 1963.495408493621,
+      "area_ratio_to_driver": 0.9935868513814109,
+      "minimum_air_area_mm2": 1950.903220627034,
+      "outlet_area_total_mm2": 2172.666009418211,
+      "intended_outlet_area_total_mm2": 3287.6283617630716,
+      "outlet_tessellation_area_error_fraction": 0.33913880452927303,
+      "terminal_area_contraction_fraction": 0.4843783867875193,
+      "channel_lengths_mm": [
+        180.00000000000003
+      ],
+      "cell_path_span_mm": 0,
+      "geometric_phase_proxy_deg_at_bandtop": 0.0,
+      "geometric_edge_path_proxy_mm": 24.325720358451207,
+      "driver_circular_first_transverse_mode_hz": 4020.4196184465623,
+      "max_power_identity_error": 5.873079800267078e-14,
+      "primary_1d_reflection_abs_band_median": 0.08500595585621311,
+      "components": [
+        {
+          "name": "shell",
+          "path_mm": 180.00000000000003,
+          "inlet_mm2": 1950.903220627034,
+          "outlet_mm2": 2172.666009418211
+        }
+      ],
+      "validation_status": "1D-Screening; räumlicher Nachweis offen"
+    }
+  ],
+  "one_d_convergence": [
+    {
+      "id": "single",
+      "segments": [
+        512,
+        1024
+      ],
+      "max_delta_reflection_complex": 0.005429863659050625,
+      "max_delta_z_normalized": 0.009791192454331174
+    },
+    {
+      "id": "rocket",
+      "segments": [
+        512,
+        1024
+      ],
+      "max_delta_reflection_complex": 0.006178130127189566,
+      "max_delta_z_normalized": 0.01228511960323328
+    },
+    {
+      "id": "round-os",
+      "segments": [
+        512,
+        1024
+      ],
+      "max_delta_reflection_complex": 0.003775897183596973,
+      "max_delta_z_normalized": 0.007058662151968391
+    },
+    {
+      "id": "round-slot",
+      "segments": [
+        512,
+        1024
+      ],
+      "max_delta_reflection_complex": 0.0016277478806037214,
+      "max_delta_z_normalized": 0.08365384687849839
+    }
+  ],
+  "fem": [
+    {
+      "id": "round-os",
+      "frequency_hz": 1200.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14256,
+      "elements": 27974,
+      "zin_normalized_real": 0.15095228010732792,
+      "zin_normalized_imag": 0.4984804783927707,
+      "beamwidth_6db_deg": 103.85025348631419,
+      "relative_residual": 1.1202653245031399e-12,
+      "power_balance_relative": 3.35191284378833e-15
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 2000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14256,
+      "elements": 27974,
+      "zin_normalized_real": 0.4538010655755368,
+      "zin_normalized_imag": 0.7001440783511904,
+      "beamwidth_6db_deg": 58.33755509275033,
+      "relative_residual": 1.1341081337599029e-12,
+      "power_balance_relative": 8.919836022847138e-16
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 4000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14256,
+      "elements": 27974,
+      "zin_normalized_real": 0.9732410928825989,
+      "zin_normalized_imag": 0.3327344517076858,
+      "beamwidth_6db_deg": 66.56455543327074,
+      "relative_residual": 8.709337871255166e-13,
+      "power_balance_relative": 1.3309199117149487e-15
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 8000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14256,
+      "elements": 27974,
+      "zin_normalized_real": 0.972561541474789,
+      "zin_normalized_imag": 0.27469177248366605,
+      "beamwidth_6db_deg": 70.13378097146624,
+      "relative_residual": 7.754636652360596e-13,
+      "power_balance_relative": 3.662587105279009e-15
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 1200.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 40600,
+      "elements": 80304,
+      "zin_normalized_real": 0.15096774755966078,
+      "zin_normalized_imag": 0.4994531429820364,
+      "beamwidth_6db_deg": 103.85898988725907,
+      "relative_residual": 2.581019949021022e-12,
+      "power_balance_relative": 2.8287245925130062e-14
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 2000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 40600,
+      "elements": 80304,
+      "zin_normalized_real": 0.4542866247210584,
+      "zin_normalized_imag": 0.7023173083410342,
+      "beamwidth_6db_deg": 58.34724107364524,
+      "relative_residual": 2.594187804140068e-12,
+      "power_balance_relative": 1.782060431302613e-16
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 4000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 40600,
+      "elements": 80304,
+      "zin_normalized_real": 0.9707189257236172,
+      "zin_normalized_imag": 0.32941273726533477,
+      "beamwidth_6db_deg": 67.10991897241507,
+      "relative_residual": 2.010607177958859e-12,
+      "power_balance_relative": 1.0007834773987919e-14
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 8000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 40600,
+      "elements": 80304,
+      "zin_normalized_real": 0.9637717345020944,
+      "zin_normalized_imag": 0.30123847000316284,
+      "beamwidth_6db_deg": 69.86393796122383,
+      "relative_residual": 1.266378223538911e-12,
+      "power_balance_relative": 7.223981809044704e-15
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 1200.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14472,
+      "elements": 28392,
+      "zin_normalized_real": 0.17676213948438882,
+      "zin_normalized_imag": 0.4265454470159493,
+      "beamwidth_6db_deg": 108.26344255729123,
+      "relative_residual": 1.0378793709796781e-12,
+      "power_balance_relative": 3.091483272403018e-15
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 2000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14472,
+      "elements": 28392,
+      "zin_normalized_real": 0.3758508852171285,
+      "zin_normalized_imag": 0.5608940518883169,
+      "beamwidth_6db_deg": 59.01927923051141,
+      "relative_residual": 8.853403434386782e-13,
+      "power_balance_relative": 4.523307315419088e-15
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 4000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14472,
+      "elements": 28392,
+      "zin_normalized_real": 0.7516853821281485,
+      "zin_normalized_imag": 0.46329056938661456,
+      "beamwidth_6db_deg": 34.02486948548468,
+      "relative_residual": 7.392777845951621e-13,
+      "power_balance_relative": 8.185210735786601e-15
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 8000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 14472,
+      "elements": 28392,
+      "zin_normalized_real": 1.0238874552807506,
+      "zin_normalized_imag": 0.301153898787492,
+      "beamwidth_6db_deg": 106.07829362838447,
+      "relative_residual": 6.169687541724284e-13,
+      "power_balance_relative": 4.744073467508795e-16
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 1200.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 41336,
+      "elements": 81744,
+      "zin_normalized_real": 0.17680751645967435,
+      "zin_normalized_imag": 0.4277408364039222,
+      "beamwidth_6db_deg": 108.29000813334203,
+      "relative_residual": 2.4642753258827352e-12,
+      "power_balance_relative": 3.4340998388920057e-16
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 2000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 41336,
+      "elements": 81744,
+      "zin_normalized_real": 0.3760509929248316,
+      "zin_normalized_imag": 0.5629266011940172,
+      "beamwidth_6db_deg": 59.02097562489843,
+      "relative_residual": 2.0322264427027282e-12,
+      "power_balance_relative": 3.87505742707887e-15
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 4000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 41336,
+      "elements": 81744,
+      "zin_normalized_real": 0.7471430872178623,
+      "zin_normalized_imag": 0.46674201835341866,
+      "beamwidth_6db_deg": 34.02704481600463,
+      "relative_residual": 1.6358450908986003e-12,
+      "power_balance_relative": 4.33419639282216e-16
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 8000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 41336,
+      "elements": 81744,
+      "zin_normalized_real": 1.0313443105931364,
+      "zin_normalized_imag": 0.3077259941957135,
+      "beamwidth_6db_deg": 148.19837253417094,
+      "relative_residual": 1.0684279327130264e-12,
+      "power_balance_relative": 3.2968409117060805e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 800.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 17454,
+      "elements": 34256,
+      "zin_normalized_real": 0.9231847860804349,
+      "zin_normalized_imag": 0.7987084440541398,
+      "beamwidth_6db_deg": null,
+      "relative_residual": 3.842646004437779e-12,
+      "power_balance_relative": 2.5345985733217786e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 1200.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 17454,
+      "elements": 34256,
+      "zin_normalized_real": 0.5098794697007099,
+      "zin_normalized_imag": 0.19081245473980984,
+      "beamwidth_6db_deg": 94.778726594264,
+      "relative_residual": 1.838834447611434e-12,
+      "power_balance_relative": 3.2779495390006056e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 2000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 17454,
+      "elements": 34256,
+      "zin_normalized_real": 0.6918609870182447,
+      "zin_normalized_imag": 0.37811106077749473,
+      "beamwidth_6db_deg": 53.59297329521203,
+      "relative_residual": 1.3161927066275114e-12,
+      "power_balance_relative": 1.6910209461269543e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 4000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 17454,
+      "elements": 34256,
+      "zin_normalized_real": 0.9381998915930971,
+      "zin_normalized_imag": 0.24571395448590494,
+      "beamwidth_6db_deg": 26.60666182004824,
+      "relative_residual": 7.481984938451173e-13,
+      "power_balance_relative": 7.12581268715897e-16
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 8000.0,
+      "h_m": 0.003,
+      "extent_m": 0.32,
+      "nodes": 17454,
+      "elements": 34256,
+      "zin_normalized_real": 1.04545416783524,
+      "zin_normalized_imag": -0.06992095214855577,
+      "beamwidth_6db_deg": 24.724855408270752,
+      "relative_residual": 5.0775938538755e-13,
+      "power_balance_relative": 1.0231628543905887e-14
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 800.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 51100,
+      "elements": 101074,
+      "zin_normalized_real": 0.9243271324379373,
+      "zin_normalized_imag": 0.7991796537758351,
+      "beamwidth_6db_deg": null,
+      "relative_residual": 8.621917443996262e-12,
+      "power_balance_relative": 1.9890091131127648e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 1200.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 51100,
+      "elements": 101074,
+      "zin_normalized_real": 0.5094486043067158,
+      "zin_normalized_imag": 0.19187061857884194,
+      "beamwidth_6db_deg": 94.80915428000218,
+      "relative_residual": 4.1890834277479664e-12,
+      "power_balance_relative": 5.577227161852449e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 2000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 51100,
+      "elements": 101074,
+      "zin_normalized_real": 0.6926996155111884,
+      "zin_normalized_imag": 0.3790992831850453,
+      "beamwidth_6db_deg": 53.608957757343006,
+      "relative_residual": 2.7033536769307974e-12,
+      "power_balance_relative": 4.825639094423086e-16
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 4000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 51100,
+      "elements": 101074,
+      "zin_normalized_real": 0.9376380944921552,
+      "zin_normalized_imag": 0.2441949697773722,
+      "beamwidth_6db_deg": 26.60099506606975,
+      "relative_residual": 1.6378492221690177e-12,
+      "power_balance_relative": 9.26910686419381e-15
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 8000.0,
+      "h_m": 0.00175,
+      "extent_m": 0.32,
+      "nodes": 51100,
+      "elements": 101074,
+      "zin_normalized_real": 1.0407190630950323,
+      "zin_normalized_imag": -0.07212435018456796,
+      "beamwidth_6db_deg": 24.725577427330368,
+      "relative_residual": 1.1557326192493189e-12,
+      "power_balance_relative": 5.139090405991564e-15
+    }
+  ],
+  "fem_convergence": [
+    {
+      "id": "round-os",
+      "frequency_hz": 1200.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.00097278756431869,
+      "max_pattern_delta_above_minus20_db": 0.0007604663361799879,
+      "beamwidth_delta_deg": 0.008736400944883371
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 2000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.002226813030444236,
+      "max_pattern_delta_above_minus20_db": 0.01343111814942688,
+      "beamwidth_delta_deg": 0.009685980894914792
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 4000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.004170745019102591,
+      "max_pattern_delta_above_minus20_db": 0.15106107364458055,
+      "beamwidth_delta_deg": 0.5453635391443328
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 8000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.027964045769682318,
+      "max_pattern_delta_above_minus20_db": 1.1347849274944233,
+      "beamwidth_delta_deg": 0.2698430102424112
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 8000,
+      "comparison": "h=1.75 mm vs 1.25 mm",
+      "delta_z_normalized_abs": 0.004685861225848918,
+      "max_pattern_delta_above_minus20_db": 0.3990359982178715,
+      "beamwidth_delta_deg": 0.08501387261895843
+    },
+    {
+      "id": "round-os",
+      "frequency_hz": 8000,
+      "comparison": "extent=0.32 m vs 0.45 m",
+      "delta_z_normalized_abs": 0.005979967460423011,
+      "max_pattern_delta_above_minus20_db": 0.10168351154843336,
+      "beamwidth_delta_deg": 0.13073632406310765
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 1200.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.0011962503328167603,
+      "max_pattern_delta_above_minus20_db": 0.002495524471902044,
+      "beamwidth_delta_deg": 0.026565576050799677
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 2000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.0020423760120959413,
+      "max_pattern_delta_above_minus20_db": 0.013030118387939993,
+      "beamwidth_delta_deg": 0.0016963943870251796
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 4000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.005704817527534547,
+      "max_pattern_delta_above_minus20_db": 0.06564395848270799,
+      "beamwidth_delta_deg": 0.0021753305199538886
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 8000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.009939674501945288,
+      "max_pattern_delta_above_minus20_db": 4.410934629727316,
+      "beamwidth_delta_deg": 42.12007890578647
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 8000,
+      "comparison": "h=1.75 mm vs 1.25 mm",
+      "delta_z_normalized_abs": 0.0009342999417625427,
+      "max_pattern_delta_above_minus20_db": 1.5390882771780552,
+      "beamwidth_delta_deg": 11.763231926637445
+    },
+    {
+      "id": "round-conical",
+      "frequency_hz": 8000,
+      "comparison": "extent=0.32 m vs 0.45 m",
+      "delta_z_normalized_abs": 0.004638561746478244,
+      "max_pattern_delta_above_minus20_db": 0.309312646394865,
+      "beamwidth_delta_deg": 1.95353706065373
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 800.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.0012357159068002962,
+      "max_pattern_delta_above_minus20_db": 0.004236565516425372,
+      "beamwidth_delta_deg": null
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 1200.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.0011425216400474869,
+      "max_pattern_delta_above_minus20_db": 0.004515564401883054,
+      "beamwidth_delta_deg": 0.030427685738175114
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 2000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.0012961023400804778,
+      "max_pattern_delta_above_minus20_db": 0.02433320690162688,
+      "beamwidth_delta_deg": 0.015984462130973043
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 4000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.001619546395563602,
+      "max_pattern_delta_above_minus20_db": 0.018318105844862487,
+      "beamwidth_delta_deg": 0.005666753978491812
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 8000.0,
+      "comparison": "h=3 mm vs 1.75 mm",
+      "delta_z_normalized_abs": 0.005222660223089427,
+      "max_pattern_delta_above_minus20_db": 0.881098175781009,
+      "beamwidth_delta_deg": 0.000722019059615775
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 8000,
+      "comparison": "h=1.75 mm vs 1.25 mm",
+      "delta_z_normalized_abs": 0.0017872975830772158,
+      "max_pattern_delta_above_minus20_db": 0.2130153193167672,
+      "beamwidth_delta_deg": 0.0021121428910930717
+    },
+    {
+      "id": "rocket",
+      "frequency_hz": 8000,
+      "comparison": "extent=0.32 m vs 0.45 m",
+      "delta_z_normalized_abs": 0.0006122410037488252,
+      "max_pattern_delta_above_minus20_db": 0.04700239506775361,
+      "beamwidth_delta_deg": 0.02280839054786199
+    }
+  ],
+  "piston_benchmark": [
+    {
+      "frequency_hz": 1200.0,
+      "h_m": 0.003,
+      "numerical_real": 0.038422174279916343,
+      "numerical_imag": 0.22666777575983477,
+      "analytic_real": 0.0384653963685182,
+      "analytic_imag": 0.23208665383456611,
+      "absolute_normalized_error": 0.005419050446134196,
+      "relative_error": 0.023035025638986545
+    },
+    {
+      "frequency_hz": 2000.0,
+      "h_m": 0.003,
+      "numerical_real": 0.10414259261662376,
+      "numerical_imag": 0.3634381004936716,
+      "analytic_real": 0.10440929658235333,
+      "analytic_imag": 0.3727024054404325,
+      "absolute_normalized_error": 0.009268143133978576,
+      "relative_error": 0.023945542037611435
+    },
+    {
+      "frequency_hz": 4000.0,
+      "h_m": 0.003,
+      "numerical_real": 0.37163833561624715,
+      "numerical_imag": 0.6052487105975417,
+      "analytic_real": 0.3748100397788376,
+      "analytic_imag": 0.6245818516490125,
+      "absolute_normalized_error": 0.01959158110544062,
+      "relative_error": 0.026896265289960877
+    },
+    {
+      "frequency_hz": 8000.0,
+      "h_m": 0.003,
+      "numerical_real": 0.9583849989585931,
+      "numerical_imag": 0.5597880814147504,
+      "analytic_real": 0.9760203663394831,
+      "analytic_imag": 0.5873440673999166,
+      "absolute_normalized_error": 0.03271602888911846,
+      "relative_error": 0.02872050271160881
+    },
+    {
+      "frequency_hz": 1200.0,
+      "h_m": 0.00175,
+      "numerical_real": 0.0384493284452442,
+      "numerical_imag": 0.22968927556170649,
+      "analytic_real": 0.0384653963685182,
+      "analytic_imag": 0.23208665383456611,
+      "absolute_normalized_error": 0.002397432118191829,
+      "relative_error": 0.010190883229307184
+    },
+    {
+      "frequency_hz": 2000.0,
+      "h_m": 0.00175,
+      "numerical_real": 0.1043081405146673,
+      "numerical_imag": 0.36861231824431745,
+      "analytic_real": 0.10440929658235333,
+      "analytic_imag": 0.3727024054404325,
+      "absolute_normalized_error": 0.004091337901207115,
+      "relative_error": 0.010570542803148552
+    },
+    {
+      "frequency_hz": 4000.0,
+      "h_m": 0.00175,
+      "numerical_real": 0.37357663921584994,
+      "numerical_imag": 0.6160418092215142,
+      "analytic_real": 0.3748100397788376,
+      "analytic_imag": 0.6245818516490125,
+      "absolute_normalized_error": 0.008628650045763187,
+      "relative_error": 0.011845825994137407
+    },
+    {
+      "frequency_hz": 8000.0,
+      "h_m": 0.00175,
+      "numerical_real": 0.9688254568519364,
+      "numerical_imag": 0.5744605617091946,
+      "analytic_real": 0.9760203663394831,
+      "analytic_imag": 0.5873440673999166,
+      "absolute_normalized_error": 0.014756403403839845,
+      "relative_error": 0.012954241036097686
+    }
+  ],
+  "os_contour_comparison": [
+    {
+      "frequency_hz": 1200.0,
+      "cad_meridian_rings": 9,
+      "maximum_radial_interpolation_error_mm": 1.774757241710138,
+      "analytic_contour_beamwidth_deg": 103.86084910685346,
+      "catalogue_contour_beamwidth_deg": 103.85898988725907,
+      "delta_z_normalized_abs": 0.040988025312667466
+    },
+    {
+      "frequency_hz": 2000.0,
+      "cad_meridian_rings": 9,
+      "maximum_radial_interpolation_error_mm": 1.774757241710138,
+      "analytic_contour_beamwidth_deg": 58.34327928962362,
+      "catalogue_contour_beamwidth_deg": 58.34724107364524,
+      "delta_z_normalized_abs": 0.0982390582677054
+    },
+    {
+      "frequency_hz": 4000.0,
+      "cad_meridian_rings": 9,
+      "maximum_radial_interpolation_error_mm": 1.774757241710138,
+      "analytic_contour_beamwidth_deg": 66.97130670573725,
+      "catalogue_contour_beamwidth_deg": 67.10991897241507,
+      "delta_z_normalized_abs": 0.3079817794483704
+    },
+    {
+      "frequency_hz": 8000.0,
+      "cad_meridian_rings": 9,
+      "maximum_radial_interpolation_error_mm": 1.774757241710138,
+      "analytic_contour_beamwidth_deg": 69.76068592401491,
+      "catalogue_contour_beamwidth_deg": 69.86393796122383,
+      "delta_z_normalized_abs": 0.27833525059955505
+    }
+  ]
+}
