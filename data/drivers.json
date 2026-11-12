@@ -10,13 +10,17 @@
       18000
     ],
     "crossover_hz": 1200,
-    "crossover_status": "Herstellerempfehlung; Filterbedingungen im Datenblatt prüfen",
+    "crossover_status": "Hersteller: Hochpass bei mindestens 1200 Hz, mindestens 12 dB/Oktave; Leistungsangaben hornbeladen geprüft",
     "aes_w": 70,
     "program_w": 140,
     "sensitivity_db": 108,
-    "sensitivity_note": "Herstellerwert, Messhorn/Bedingungen vor Vergleich prüfen",
+    "sensitivity_note": "2,83 V / 1 m auf HD1003, Mittel 1000–18000 Hz. Bei nominal 16 Ohm entspricht dies rechnerisch ca. 0,5 W, nicht 1 W.",
     "voice_coil_mm": 51,
-    "source": "L1"
+    "source": "L1",
+    "crossover_min_slope_db_per_oct": 12,
+    "sensitivity_voltage_v": 2.83,
+    "sensitivity_distance_m": 1,
+    "datasheet_url": "https://www.lavocespeakers.com/wp-admin/admin-post.php?action=lv_generate_pdf&page=4973"
   },
   {
     "id": "lavoce-dn2030tk",
@@ -29,13 +33,17 @@
       20000
     ],
     "crossover_hz": 800,
-    "crossover_status": "Herstellerempfehlung; Filterbedingungen im Datenblatt prüfen",
+    "crossover_status": "Hersteller: Hochpass bei mindestens 800 Hz, mindestens 12 dB/Oktave; Leistungsangaben hornbeladen geprüft",
     "aes_w": 110,
     "program_w": 220,
     "sensitivity_db": 108,
-    "sensitivity_note": "Herstellerwert, Messhorn/Bedingungen vor Vergleich prüfen",
+    "sensitivity_note": "2,83 V / 1 m auf 60°×40°-Horn, Mittel 500–20000 Hz. Kein übertragbarer SPL-Nachweis für eigene Konturen.",
     "voice_coil_mm": 75,
-    "source": "L2"
+    "source": "L2",
+    "crossover_min_slope_db_per_oct": 12,
+    "sensitivity_voltage_v": 2.83,
+    "sensitivity_distance_m": 1,
+    "datasheet_url": "https://lavocespeakers.com/wp-admin/admin-post.php?action=lv_generate_pdf&page=4955"
   },
   {
     "id": "jbl-2426h",
