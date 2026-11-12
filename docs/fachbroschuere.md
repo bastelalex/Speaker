@@ -5,7 +5,7 @@
 Fachbroschüre · 30 Seiten · Ausgabe 1.0
 
 Diese Broschüre führt von einer gewünschten horizontalen und vertikalen Abstrahlung und einem Frequenzband zu einem prüfbaren Waveguide-Vorentwurf. Sie behandelt Raketen- und Axtkopf-Phaseplugs, klassische Multicell-Hörner, Polycell als hier verwendeten Arbeitsbegriff, Turbosound Polyhorn sowie Kompressionskammern. Treiberbeispiele stammen von LaVoce und JBL. Der Schwerpunkt liegt auf Zusammenhängen zwischen Querschnitt, Laufweg, Wellenlänge und Richtwirkung.
-Das Ergebnis ist ein Entwicklungswerkzeug: Formeln liefern Startmaße und zeigen Zielkonflikte. Gemessene Polardaten, Belastbarkeit am konkreten Horn und fertigungsgerechte Originalmaße werden dadurch nicht ersetzt. Es liegen keine eigenen BEM-, FEM- oder Prototypmessungen vor. Alle Katalogentwürfe sind eigenständige Studien, keine freigegebenen Turbosound-Nachbauten.
+Das Ergebnis ist ein Entwicklungswerkzeug: Formeln liefern Startmaße und zeigen Zielkonflikte. Gemessene Polardaten, Belastbarkeit am konkreten Horn und fertigungsgerechte Originalmaße werden dadurch nicht ersetzt. Ergänzend liegen eine erste 1D-Lastprüfung aller Konzepte und eine axialsymmetrische FEM-Kampagne für drei rotationssymmetrische Profile vor; der separate Validierungsbericht nennt die Grenzen. Eigene Prototypmessungen liegen nicht vor. Alle Katalogentwürfe sind eigenständige Studien, keine freigegebenen Turbosound-Nachbauten.
 
 **Formel / Modell:** Zielkette: Anforderung → Modell → Geometrie → Simulation → Messung
 
