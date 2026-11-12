@@ -1,0 +1,258 @@
+[
+  {
+    "id": "single",
+    "code": "S-90",
+    "title": "Einzel-Waveguide",
+    "group": "Referenz",
+    "geometry": "round_rect",
+    "width": 300,
+    "height": 200,
+    "length": 210,
+    "throat": 25.4,
+    "driver": "LaVoce DN10.20-16",
+    "band": "ab 1200 Hz nach Herstellerempfehlung; Zielabstrahlung offen",
+    "description": "Runder Eintritt mit weichem Übergang auf eine gerundete Rechteckmündung. Referenz für die räumliche Form und für den Vergleich mit Innenkörpern und Zellen.",
+    "formula": "a(t)=r0+(W/2−r0)t; b(t)=r0+(H/2−r0)t; n(t)=2+6t²(3−2t)",
+    "risk": "Mundreflexionen, Halswinkel und reale Strahlbreite benötigen Simulation und Messung.",
+    "missing": "Flansch, Lochkreis und Mund-Rollback fehlen.",
+    "refs": [
+      "A2",
+      "L1"
+    ]
+  },
+  {
+    "id": "rocket",
+    "code": "R-60",
+    "title": "Raketen-Ringkanal",
+    "group": "Phaseplug",
+    "geometry": "rocket",
+    "width": 280,
+    "height": 280,
+    "length": 240,
+    "throat": 50,
+    "driver": "LaVoce DN20.30TK",
+    "band": "ab 800 Hz nach Herstellerempfehlung; Ringkanal ungeprüft",
+    "description": "Rotationssymmetrische Hülle mit separatem axialem Innenkörper. Die orange Rakete verdrängt Luftvolumen; der verbleibende Ringquerschnitt ist das eigentliche Schallführungsmaß.",
+    "formula": "S(z)=π[R_a(z)²−R_i(z)²]",
+    "risk": "Engstellen und Reflexionen am Auslauf des Innenkörpers. Die Wege sind nicht phasenoptimiert.",
+    "missing": "Innenkörper ist ein separater Körper ohne Halterung; kein Turbosound-Originalteil.",
+    "refs": [
+      "T2",
+      "L2"
+    ]
+  },
+  {
+    "id": "axe",
+    "code": "A-90",
+    "title": "Axtkopf-Zweikanal",
+    "group": "Phaseplug",
+    "geometry": "axe",
+    "width": 320,
+    "height": 220,
+    "length": 230,
+    "throat": 25,
+    "driver": "JBL 2426H",
+    "band": "Hersteller-Trennung ≥800 Hz, mindestens 12 dB/Okt.; Form ungeprüft",
+    "description": "Gerundete Rechteckhülle mit einem abgeflachten, keilförmigen Innenkörper. Der Körper teilt den freien Querschnitt in zwei Hauptwege. Das Modell ist bewusst als eigenständige Formstudie angelegt.",
+    "formula": "S_frei(z)=S_Hülle(z)−S_Körper(z)",
+    "risk": "Ungleiche Laufwege und Modenkonversion; eine scharfe Schneide garantiert keine gute Übertragung.",
+    "missing": "Befestigung und Treiberflansch fehlen; kein vermessenes Turbosound-Bauteil.",
+    "refs": [
+      "P2",
+      "J1"
+    ]
+  },
+  {
+    "id": "multi",
+    "code": "M-60",
+    "title": "Multicell 3 × 2",
+    "group": "Mehrkanal",
+    "geometry": "multi",
+    "width": 316,
+    "height": 208,
+    "length": 230,
+    "throat": 18,
+    "driver": "JBL 2446H als Quelle eines noch auszulegenden Verteilers",
+    "band": "Projektstart 1000–16000 Hz; keine Abstrahlfreigabe",
+    "description": "Sechs eigenständige, aufgeweitete Hornzellen in zwei Reihen. Die Zellen besitzen im Modell jeweils einen 18-mm-Eingang. Ihr gemeinsamer Verteiler ist nicht enthalten; sie sind nicht sechs direkt montierbare 2-Zoll-Treiberhörner.",
+    "formula": "p_gesamt(θ,φ,f)=Σ p_n(θ,φ,f) exp(jψ_n)",
+    "risk": "Zellinterferenz, Wandkanten und der fehlende Verteilerausgleich bestimmen die reale Abstrahlung.",
+    "missing": "Gemeinsamer Verteiler und 49-mm-Treiberadapter fehlen. Modell enthält sechs getrennte Hohlkörper.",
+    "refs": [
+      "P1",
+      "J2"
+    ]
+  },
+  {
+    "id": "poly",
+    "code": "P-25",
+    "title": "Polycell mit geschwenkten Zellen",
+    "group": "Mehrkanal",
+    "geometry": "poly",
+    "width": 316,
+    "height": 208,
+    "length": 250,
+    "throat": 18,
+    "driver": "LaVoce DN20.30TK über einen noch auszulegenden Verteiler",
+    "band": "Projektstart 1600–16000 Hz; Ausgangsphase offen",
+    "description": "Sechs geschwenkte Kanäle veranschaulichen die räumliche Gestaltung einer gemeinsamen Apertur. Zellachsen und Mundlage sind sichtbar; die Kanalwege sind noch nicht gleichphasig abgestimmt.",
+    "formula": "Zielgröße: Phase Φ(x,y,f) über der gesamten Apertur",
+    "risk": "Gleiche Geometrieabschnitte ergeben bei verschiedenen Achsen keine automatisch gleiche Wellenfront.",
+    "missing": "Verteiler und Laufwegausgleich fehlen. Polycell ist ein Arbeitsbegriff, kein Polyhorn-Nachbau.",
+    "refs": [
+      "T1",
+      "P1",
+      "L2"
+    ]
+  },
+  {
+    "id": "manifold",
+    "code": "D-60",
+    "title": "Mehrtreiber-Manifold · Explosionsmodell",
+    "group": "Mehrkanal",
+    "geometry": "manifold",
+    "width": 300,
+    "height": 180,
+    "length": 390,
+    "throat": 25,
+    "driver": "3 × JBL 2426H als Konzeptquellen",
+    "band": "Projektstart 2000–16000 Hz; gekoppelte Last offen",
+    "description": "Drei getrennte Eingangskanäle und eine nachgeschaltete gemeinsame Aufweitung. Ein Abstand zwischen den Bauteilen zeigt die Zusammenführung als Explosionsdarstellung. Der offene Zwischenraum ist kein betriebsfähiger akustischer Anschluss.",
+    "formula": "Z_parallel(f)=Z_Treiber(f)/3 bei identischen Treibern",
+    "risk": "Akustische Rückwirkung, Phasenfehler und elektrische Last; keine Addition von Watt- oder SPL-Angaben.",
+    "missing": "Dichte Zusammenführung, Adapter, Halterungen und Lastabgleich fehlen; vier separate Hohlkörper.",
+    "refs": [
+      "T2",
+      "J1"
+    ]
+  },
+  {
+    "id": "round-conical",
+    "code": "C-72",
+    "title": "Runder Konus",
+    "group": "Rund",
+    "geometry": "round",
+    "width": 260,
+    "height": 260,
+    "length": 160,
+    "throat": 25.4,
+    "driver": "LaVoce DN10.20-16",
+    "band": "Treiberempfehlung ab 1200 Hz; Richtkontrollband offen",
+    "description": "Rotationssymmetrische, geradlinige Kontur als einfachste runde Referenz. Alle Radialschnitte sind identisch. Der geometrische volle Wandwinkel beträgt hier etwa 72,5°; das ist keine gemessene Strahlbreite.",
+    "formula": "r(z)=r0+(R_m−r0)z/L; S(z)=πr(z)²",
+    "risk": "Abrupt endender Mund und Quellwellenfront können die Polaren deutlich verändern.",
+    "missing": "Kein Mund-Rollback, keine Befestigung; definierte Modellmaße statt Aperturvorbemessung.",
+    "refs": [
+      "A1",
+      "L1"
+    ]
+  },
+  {
+    "id": "round-os",
+    "code": "O-90",
+    "title": "Rundes OS-Profil",
+    "group": "Rund",
+    "geometry": "os",
+    "width": 281.15,
+    "height": 281.15,
+    "length": 140,
+    "throat": 25.4,
+    "driver": "LaVoce DN10.20-16",
+    "band": "Treiberempfehlung ab 1200 Hz; Richtkontrollband offen",
+    "description": "Abgeschnittenes rotationssymmetrisches Oblate-Spheroidal-Profil mit nominellem Halbwinkel 45°. Es zeigt den nichtlinearen Verlauf am Hals im Vergleich zum geraden Konus. Keine OS-SE-Mundterminierung implementiert.",
+    "formula": "r(z)=sqrt[r0²+z² tan²(45°)]",
+    "risk": "Der endliche Mund und die Treiberaustrittswellenfront beeinflussen die tatsächliche Richtwirkung.",
+    "missing": "OS-SE-/R-OSSE-Terminierung und Flansch fehlen. Eigenes Modell nach offen dokumentierter Grundformel.",
+    "refs": [
+      "A4",
+      "L1"
+    ]
+  },
+  {
+    "id": "oval",
+    "code": "E-32",
+    "title": "Ovaler / elliptischer Waveguide",
+    "group": "Oval",
+    "geometry": "ellipse",
+    "width": 360,
+    "height": 180,
+    "length": 220,
+    "throat": 50,
+    "driver": "LaVoce DN20.30TK",
+    "band": "Treiberempfehlung ab 800 Hz; Zielabstrahlung offen",
+    "description": "Ein kreisförmiger Hals geht in eine elliptische Mündung mit Seitenverhältnis 2:1 über. Die beiden Hauptachsen wachsen mit derselben Interpolationsfunktion, aber zu unterschiedlichen Endmaßen.",
+    "formula": "x=a(z) cosφ; y=b(z) sinφ; S(z)=πa(z)b(z)",
+    "risk": "Ein Seitenverhältnis von 2:1 bedeutet weder halben Winkel noch identische diagonale Polaren.",
+    "missing": "Keine phasengleiche elliptisch-zylindrische Wellenfront nachgewiesen; Flansch und Randverrundung fehlen.",
+    "refs": [
+      "A2",
+      "L2"
+    ]
+  },
+  {
+    "id": "superellipse",
+    "code": "Q-36",
+    "title": "Superelliptischer Übergang",
+    "group": "Oval",
+    "geometry": "superellipse",
+    "width": 360,
+    "height": 220,
+    "length": 210,
+    "throat": 49,
+    "driver": "JBL 2446H",
+    "band": "Eigene Projekt-Untergrenze 800 Hz; Herstellerdaten siehe J2/J3",
+    "description": "Kontinuierlicher Übergang vom Kreis zu einer gerundeten Rechteckmündung mit Superellipsenexponent 4. So lässt sich die Eckigkeit verändern, ohne abrupt von Kreis auf einen kantigen Querschnitt zu springen.",
+    "formula": "|x/a(z)|^n(z)+|y/b(z)|^n(z)=1; n: 2 → 4",
+    "risk": "Stetige Form allein verhindert keine höheren Moden und garantiert keine konstante Abstrahlung.",
+    "missing": "Eigenes Profil, keine JBL-Image-Control-Replik. Flansch und akustische Optimierung fehlen.",
+    "refs": [
+      "A2",
+      "J2",
+      "J4"
+    ]
+  },
+  {
+    "id": "prism",
+    "code": "W-P",
+    "title": "Prismatischer Rechteck-Waveformer",
+    "group": "Prismatisch",
+    "geometry": "prism",
+    "width": 240,
+    "height": 60,
+    "length": 180,
+    "throat": 50,
+    "driver": "LaVoce DN20.30TK mit zusätzlichem Rund-auf-Rechteck-Adapter",
+    "band": "Treiberempfehlung ab 800 Hz; Wellenfront nicht validiert",
+    "description": "Vier ebene, trapezförmige Wände verbinden einen 40 × 24-mm-Rechteckeingang mit einem 240 × 60-mm-Ausgang. Der abgeflachte Pyramidenstumpf zeigt die prismatische Bauweise besonders deutlich.",
+    "formula": "W(z)=40+(240−40)z/L; H(z)=24+(60−24)z/L",
+    "risk": "Eine rechteckige Ebene am Ausgang ist kein Beweis einer ebenen akustischen Wellenfront.",
+    "missing": "Der runde 50-mm-Treiber passt ohne separaten Übergang nicht zum 40 × 24-mm-Eingang. Adapter nicht enthalten.",
+    "refs": [
+      "P3",
+      "P4",
+      "L2"
+    ]
+  },
+  {
+    "id": "round-slot",
+    "code": "W-S",
+    "title": "Rund-auf-Schlitz-Waveformer",
+    "group": "Prismatisch",
+    "geometry": "slot",
+    "width": 14,
+    "height": 240,
+    "length": 180,
+    "throat": 50,
+    "driver": "LaVoce DN20.30TK als runde Eingangsquelle",
+    "band": "Treiberempfehlung ab 800 Hz; Ausgangsphase und Nutzband offen",
+    "description": "Ein runder Eintritt wird auf einen hohen, schmalen und gerundeten Rechteckschlitz transformiert. Das Modell visualisiert die Geometrieaufgabe eines Line-Array-Vorkopplers. Zusätzliche phasenkorrigierende Kanalführungen sind nicht enthalten.",
+    "formula": "a(t)=25+(7−25)t; b(t)=25+(120−25)t; n(t): 2 → 8",
+    "risk": "Stark unterschiedliche Randwege; der reine Loft ist noch kein isophasischer Line-Array-Koppler.",
+    "missing": "Laufwegausgleich und nachgeschaltetes Abstrahlhorn fehlen; keine plane oder zylindrische Wellenfront nachgewiesen.",
+    "refs": [
+      "P3",
+      "P4",
+      "L2"
+    ]
+  }
+]
