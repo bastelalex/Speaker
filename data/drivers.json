@@ -1,0 +1,78 @@
+[
+  {
+    "id": "lavoce-dn1020-16",
+    "brand": "LaVoce",
+    "model": "DN10.20-16",
+    "throat_mm": 25.4,
+    "impedance_ohm": 16,
+    "range_hz": [
+      1000,
+      18000
+    ],
+    "crossover_hz": 1200,
+    "crossover_status": "Herstellerempfehlung; Filterbedingungen im Datenblatt prüfen",
+    "aes_w": 70,
+    "program_w": 140,
+    "sensitivity_db": 108,
+    "sensitivity_note": "Herstellerwert, Messhorn/Bedingungen vor Vergleich prüfen",
+    "voice_coil_mm": 51,
+    "source": "L1"
+  },
+  {
+    "id": "lavoce-dn2030tk",
+    "brand": "LaVoce",
+    "model": "DN20.30TK",
+    "throat_mm": 50,
+    "impedance_ohm": 8,
+    "range_hz": [
+      500,
+      20000
+    ],
+    "crossover_hz": 800,
+    "crossover_status": "Herstellerempfehlung; Filterbedingungen im Datenblatt prüfen",
+    "aes_w": 110,
+    "program_w": 220,
+    "sensitivity_db": 108,
+    "sensitivity_note": "Herstellerwert, Messhorn/Bedingungen vor Vergleich prüfen",
+    "voice_coil_mm": 75,
+    "source": "L2"
+  },
+  {
+    "id": "jbl-2426h",
+    "brand": "JBL",
+    "model": "2426H",
+    "throat_mm": 25,
+    "impedance_ohm": 8,
+    "range_hz": [
+      500,
+      20000
+    ],
+    "crossover_hz": 800,
+    "crossover_status": "Hersteller: mindestens 12 dB/Oktave; Belastbarkeit frequenzabhängig",
+    "aes_w": null,
+    "program_w": 70,
+    "sensitivity_db": 110,
+    "sensitivity_note": "1 W / 1 m auf JBL 2370A; auf 2344A 107 dB",
+    "voice_coil_mm": 44,
+    "source": "J1"
+  },
+  {
+    "id": "jbl-2446h",
+    "brand": "JBL",
+    "model": "2446H",
+    "throat_mm": 49,
+    "impedance_ohm": 8,
+    "range_hz": [
+      500,
+      20000
+    ],
+    "crossover_hz": 800,
+    "crossover_status": "Projekt-Untergrenze 800 Hz, keine verifizierte Hersteller-Trennempfehlung; 500 Hz nicht automatisch freigegeben",
+    "aes_w": null,
+    "program_w": 100,
+    "sensitivity_db": 111,
+    "sensitivity_note": "1 W / 1 m auf JBL 2380A; Program 100 W >500 Hz, 150 W >1 kHz",
+    "voice_coil_mm": 100,
+    "source": "J2"
+  }
+]
