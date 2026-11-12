@@ -20,6 +20,8 @@ Runder Eintritt mit weichem Übergang auf eine gerundete Rechteckmündung. Refer
 
 **Noch offen:** Flansch, Lochkreis und Mund-Rollback fehlen.
 
+**LaVoce-Prüfstand: 1D-Screening; räumlicher Nachweis offen; Prüfkandidat DN10.20-16.** [Numerische Ergebnisse](../validation/REPORT.md)
+
 [3D-Modell OBJ](../models/single.obj) · [STL mit GitHub-Vorschau](../models/single.stl) · [Interaktiv](designkatalog.html#single) · Quellen: A2, L1
 
 ## R-60 · Raketen-Ringkanal
@@ -37,6 +39,8 @@ Rotationssymmetrische Hülle mit separatem axialem Innenkörper. Die orange Rake
 **Prüfen:** Engstellen und Reflexionen am Auslauf des Innenkörpers. Die Wege sind nicht phasenoptimiert.
 
 **Noch offen:** Innenkörper ist ein separater Körper ohne Halterung; kein Turbosound-Originalteil.
+
+**LaVoce-Prüfstand: 2D-Teilnachweis 0,8/1,2/2/4/8 kHz; Prüfkandidat DN20.30TK.** [Numerische Ergebnisse](../validation/REPORT.md)
 
 [3D-Modell OBJ](../models/rocket.obj) · [STL mit GitHub-Vorschau](../models/rocket.stl) · [Interaktiv](designkatalog.html#rocket) · Quellen: T2, L2
 
@@ -56,6 +60,8 @@ Gerundete Rechteckhülle mit einem abgeflachten, keilförmigen Innenkörper. Der
 
 **Noch offen:** Befestigung und Treiberflansch fehlen; kein vermessenes Turbosound-Bauteil.
 
+**LaVoce-Prüfstand: Adapter / Verteiler fehlt; Prüfkandidat DN10.20-16.** [Numerische Ergebnisse](../validation/REPORT.md)
+
 [3D-Modell OBJ](../models/axe.obj) · [STL mit GitHub-Vorschau](../models/axe.stl) · [Interaktiv](designkatalog.html#axe) · Quellen: P2, J1
 
 ## M-60 · Multicell 3 × 2
@@ -73,6 +79,8 @@ Sechs eigenständige, aufgeweitete Hornzellen in zwei Reihen. Die Zellen besitze
 **Prüfen:** Zellinterferenz, Wandkanten und der fehlende Verteilerausgleich bestimmen die reale Abstrahlung.
 
 **Noch offen:** Gemeinsamer Verteiler und 49-mm-Treiberadapter fehlen. Modell enthält sechs getrennte Hohlkörper.
+
+**LaVoce-Prüfstand: Adapter / Verteiler fehlt; Prüfkandidat DN20.30TK.** [Numerische Ergebnisse](../validation/REPORT.md)
 
 [3D-Modell OBJ](../models/multi.obj) · [STL mit GitHub-Vorschau](../models/multi.stl) · [Interaktiv](designkatalog.html#multi) · Quellen: P1, J2
 
@@ -92,6 +100,8 @@ Sechs geschwenkte Kanäle veranschaulichen die räumliche Gestaltung einer gemei
 
 **Noch offen:** Verteiler und Laufwegausgleich fehlen. Polycell ist ein Arbeitsbegriff, kein Polyhorn-Nachbau.
 
+**LaVoce-Prüfstand: Adapter / Verteiler fehlt; Prüfkandidat DN20.30TK.** [Numerische Ergebnisse](../validation/REPORT.md)
+
 [3D-Modell OBJ](../models/poly.obj) · [STL mit GitHub-Vorschau](../models/poly.stl) · [Interaktiv](designkatalog.html#poly) · Quellen: T1, P1, L2
 
 ## D-60 · Mehrtreiber-Manifold · Explosionsmodell
@@ -109,6 +119,8 @@ Drei getrennte Eingangskanäle und eine nachgeschaltete gemeinsame Aufweitung. E
 **Prüfen:** Akustische Rückwirkung, Phasenfehler und elektrische Last; keine Addition von Watt- oder SPL-Angaben.
 
 **Noch offen:** Dichte Zusammenführung, Adapter, Halterungen und Lastabgleich fehlen; vier separate Hohlkörper.
+
+**LaVoce-Prüfstand: Adapter / Verteiler fehlt; Prüfkandidat DN10.20-16.** [Numerische Ergebnisse](../validation/REPORT.md)
 
 [3D-Modell OBJ](../models/manifold.obj) · [STL mit GitHub-Vorschau](../models/manifold.stl) · [Interaktiv](designkatalog.html#manifold) · Quellen: T2, J1
 
@@ -128,6 +140,8 @@ Rotationssymmetrische, geradlinige Kontur als einfachste runde Referenz. Alle Ra
 
 **Noch offen:** Kein Mund-Rollback, keine Befestigung; definierte Modellmaße statt Aperturvorbemessung.
 
+**LaVoce-Prüfstand: 2D-Teilnachweis; 8-kHz-Richtwirkung nicht konvergiert; Prüfkandidat DN10.20-16.** [Numerische Ergebnisse](../validation/REPORT.md)
+
 [3D-Modell OBJ](../models/round-conical.obj) · [STL mit GitHub-Vorschau](../models/round-conical.stl) · [Interaktiv](designkatalog.html#round-conical) · Quellen: A1, L1
 
 ## O-90 · Rundes OS-Profil
@@ -145,6 +159,8 @@ Abgeschnittenes rotationssymmetrisches Oblate-Spheroidal-Profil mit nominellem H
 **Prüfen:** Der endliche Mund und die Treiberaustrittswellenfront beeinflussen die tatsächliche Richtwirkung.
 
 **Noch offen:** OS-SE-/R-OSSE-Terminierung und Flansch fehlen. Eigenes Modell nach offen dokumentierter Grundformel.
+
+**LaVoce-Prüfstand: 2D-Teilnachweis 1,2/2/4/8 kHz; Prüfkandidat DN10.20-16.** [Numerische Ergebnisse](../validation/REPORT.md)
 
 [3D-Modell OBJ](../models/round-os.obj) · [STL mit GitHub-Vorschau](../models/round-os.stl) · [Interaktiv](designkatalog.html#round-os) · Quellen: A4, L1
 
@@ -164,6 +180,8 @@ Ein kreisförmiger Hals geht in eine elliptische Mündung mit Seitenverhältnis 
 
 **Noch offen:** Keine phasengleiche elliptisch-zylindrische Wellenfront nachgewiesen; Flansch und Randverrundung fehlen.
 
+**LaVoce-Prüfstand: 1D-Screening; räumlicher Nachweis offen; Prüfkandidat DN20.30TK.** [Numerische Ergebnisse](../validation/REPORT.md)
+
 [3D-Modell OBJ](../models/oval.obj) · [STL mit GitHub-Vorschau](../models/oval.stl) · [Interaktiv](designkatalog.html#oval) · Quellen: A2, L2
 
 ## Q-36 · Superelliptischer Übergang
@@ -181,6 +199,8 @@ Kontinuierlicher Übergang vom Kreis zu einer gerundeten Rechteckmündung mit Su
 **Prüfen:** Stetige Form allein verhindert keine höheren Moden und garantiert keine konstante Abstrahlung.
 
 **Noch offen:** Eigenes Profil, keine JBL-Image-Control-Replik. Flansch und akustische Optimierung fehlen.
+
+**LaVoce-Prüfstand: Adapter / Verteiler fehlt; Prüfkandidat DN20.30TK.** [Numerische Ergebnisse](../validation/REPORT.md)
 
 [3D-Modell OBJ](../models/superellipse.obj) · [STL mit GitHub-Vorschau](../models/superellipse.stl) · [Interaktiv](designkatalog.html#superellipse) · Quellen: A2, J2, J4
 
@@ -200,6 +220,8 @@ Vier ebene, trapezförmige Wände verbinden einen 40 × 24-mm-Rechteckeingang mi
 
 **Noch offen:** Der runde 50-mm-Treiber passt ohne separaten Übergang nicht zum 40 × 24-mm-Eingang. Adapter nicht enthalten.
 
+**LaVoce-Prüfstand: Adapter / Verteiler fehlt; Prüfkandidat DN20.30TK.** [Numerische Ergebnisse](../validation/REPORT.md)
+
 [3D-Modell OBJ](../models/prism.obj) · [STL mit GitHub-Vorschau](../models/prism.stl) · [Interaktiv](designkatalog.html#prism) · Quellen: P3, P4, L2
 
 ## W-S · Rund-auf-Schlitz-Waveformer
@@ -217,5 +239,7 @@ Ein runder Eintritt wird auf einen hohen, schmalen und gerundeten Rechteckschlit
 **Prüfen:** Stark unterschiedliche Randwege; der reine Loft ist noch kein isophasischer Line-Array-Koppler.
 
 **Noch offen:** Laufwegausgleich und nachgeschaltetes Abstrahlhorn fehlen; keine plane oder zylindrische Wellenfront nachgewiesen.
+
+**LaVoce-Prüfstand: 1D-Screening; räumlicher Nachweis offen; Prüfkandidat DN20.30TK. Achtung: 33.9% Flächendefizit im groben Mundnetz.** [Numerische Ergebnisse](../validation/REPORT.md)
 
 [3D-Modell OBJ](../models/round-slot.obj) · [STL mit GitHub-Vorschau](../models/round-slot.stl) · [Interaktiv](designkatalog.html#round-slot) · Quellen: P3, P4, L2
