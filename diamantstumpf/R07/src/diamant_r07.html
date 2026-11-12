@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diamantstumpf · Gesamtaufbau</title>
+<style>
+:root {color-scheme:light;font-family:"Instrument Sans",system-ui,sans-serif;--ink:#222b30;--muted:#525e63;--bg:#f3f0ea;--line:#d7d4cd;--accent:#263f49}
+* {box-sizing:border-box} body {margin:0;color:var(--ink);background:var(--bg)}
+main {width:min(1370px,100%);margin:auto;padding:25px 28px 28px}
+.eyebrow {color:var(--accent);letter-spacing:.13em;text-transform:uppercase;font-size:12px}
+h1 {margin:5px 0 4px;font-size:clamp(28px,5vw,48px);line-height:1.07;font-weight:650}
+p {line-height:1.55} header p {color:var(--muted);margin:0 0 20px}
+.frame {border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.bar {display:flex;flex-wrap:wrap;gap:7px;justify-content:space-between;padding:11px;background:#fbfaf7;border-bottom:1px solid var(--line)}
+.tabs {display:flex;flex-wrap:wrap;gap:6px}
+button {font:inherit;color:var(--ink);background:#fff;border:1px solid #d6d8d6;padding:7px 12px;border-radius:7px}
+button[aria-pressed=true] {background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+button:hover,button:focus-visible {outline:1px solid var(--accent)}
+#wheel-controls[hidden] {display:none}
+[hidden] {display:none!important}
+.subbar {display:flex;flex-wrap:wrap;gap:10px 19px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line);background:#f7f6f2}
+.subbar .label {color:var(--muted);align-self:center;font-size:13px;margin-right:4px}
+.specs {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border-top:1px solid var(--line)}
+.specs article {padding:12px 15px;background:#fbfaf7}
+.specs article[data-featured=true] {background:#eee6d8}
+.specs:is([data-gallery=new],[data-gallery=manta]) {grid-template-columns:repeat(2,minmax(0,1fr))}
+.specs strong {display:block;margin-bottom:3px;color:var(--accent)}
+.specs small {display:block;color:var(--muted);line-height:1.45}
+.specs p {margin:5px 0 0;font-size:13px;line-height:1.42}
+.legend {display:flex;flex-wrap:wrap;gap:10px 18px;padding:11px 15px;border-top:1px solid var(--line);font-size:13px}
+.legend span {display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
+.legend i {width:20px;border-top:3px solid currentColor;display:inline-block}
+.legend .red {color:#c8273c}.legend .blue {color:#175bd5}.legend .yellow {color:#a76b00}
+.legend .dotted {border-top-style:dotted}
+.wheel-status {position:absolute;left:16px;bottom:16px;padding:8px 12px;background:#fbfaf7;border:1px solid var(--line);border-radius:6px;color:var(--ink);font-size:13px;z-index:2}
+#stage {position:relative;height:clamp(480px,57vw,720px);background:#dde1df}
+.sample-tag {position:absolute;z-index:1;transform:translate(-50%,0);font-size:12px;white-space:nowrap;font-weight:650;pointer-events:none;color:#243238;background:#fbfaf7e8;border-radius:5px;padding:3px 7px}
+canvas {display:block;width:100%;height:100%;touch-action:none}
+.note {padding:12px 15px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+.marker {position:absolute;z-index:2;pointer-events:none;white-space:nowrap;transform:translate(-50%,0);background:#291e17;border:1px solid #f0aa70;border-radius:6px;padding:6px 9px;font-size:13px;color:#ffe0be}
+.marker::before {content:"";position:absolute;bottom:100%;left:50%;height:15px;border-left:1px solid #f0aa70}
+.fallback {padding:25px;color:var(--muted)}
+@media(max-width:690px) {main{padding:16px 10px 20px} #stage {height:475px} button{padding:7px 8px;font-size:13px}}
+@media(max-width:600px) {.specs,.specs:is([data-gallery=new],[data-gallery=manta]){grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Diamantstumpf · R07</div>
+    <h1>Drei Module im Gesamtaufbau</h1>
+    <p>Birkenmultiplex und satinierte Silberflächen · Mitte 600 × 1.200 mm · Tops je 400 × 1.200 mm</p>
+  </header>
+  <div class="frame">
+    <div class="bar">
+      <div class="tabs" role="group" aria-label="Ansichten">
+        <button data-view="all" aria-pressed="true">Gesamtaufbau</button>
+        <button data-view="front" aria-pressed="false">Frontal</button>
+        <button data-view="waves" aria-pressed="false">Schallwege</button>
+        <button data-view="horns" aria-pressed="false">Hornvergleich</button>
+        <button data-view="top" aria-pressed="false">Top hoch / quer</button>
+        <button data-view="cut" aria-pressed="false">18-Zöller im Schnitt</button>
+        <button data-view="plan" aria-pressed="false">Draufsicht</button>
+        <button data-view="rear" aria-pressed="false">Rückseite</button>
+        <button data-view="wheels" aria-pressed="false">Rollen</button>
+      </div>
+      <div class="tabs" id="wheel-controls" role="group" aria-label="Rollposition" hidden>
+        <button data-tilt="0" aria-pressed="true">Stand</button>
+        <button data-tilt="30" aria-pressed="false">30° gekippt</button>
+      </div>
+      <button id="reset" aria-label="Kamera zurücksetzen">↺</button>
+    </div>
+    <div class="subbar">
+      <div class="tabs" id="horn-controls" role="group" aria-label="Hornvariante">
+        <span class="label">Horn</span>
+        <button data-horn="G2" aria-pressed="true">G2 Manta Tief</button>
+        <button data-horn="F" aria-pressed="false">F Nautilus</button>
+        <button data-horn="G" aria-pressed="false">G Manta</button>
+        <button data-horn="H" aria-pressed="false">H Krone</button>
+        <button data-horn="I" aria-pressed="false">I Orbital</button>
+        <button data-horn="A" aria-pressed="false">A Kontur</button>
+        <button data-horn="B" aria-pressed="false">B Schlitz</button>
+        <button data-horn="C" aria-pressed="false">C Dreizellen</button>
+        <button data-horn="AW" aria-pressed="false">A + Waveguide</button>
+        <button data-horn="D" aria-pressed="false">D Vierlappen</button>
+        <button data-horn="E" aria-pressed="false">E Fächer</button>
+      </div>
+      <div class="tabs" id="orientation-controls" role="group" aria-label="Ausrichtung des Tops" hidden>
+        <button data-box="upright" aria-pressed="true">Top hoch</button>
+        <button data-box="side" aria-pressed="false">Top quer</button>
+        <button id="turn-horn" aria-pressed="false">Horn um 90° drehen</button>
+      </div>
+      <div class="tabs" id="section-controls" role="group" aria-label="Ansicht der Hornvarianten" hidden>
+        <button data-gallery="new" aria-pressed="true">Neue Kassetten</button>
+        <button data-gallery="manta" aria-pressed="false">Manta-Vergleich</button>
+        <button data-gallery="previous" aria-pressed="false">A bis E</button>
+        <button data-section="mouth" aria-pressed="true">Perspektive</button>
+        <button data-section="side" aria-pressed="false">Seitenprofil</button>
+        <button data-section="cut" aria-pressed="false">Halbschnitt</button>
+        <button data-section="vertical" aria-pressed="false">Vertikalschnitt</button>
+      </div>
+      <div class="tabs" id="way-controls" role="group" aria-label="Akustische Wege" hidden>
+        <button data-ways="3" aria-pressed="true">3 Wege</button>
+        <button data-ways="4" aria-pressed="false">4 Wege</button>
+      </div>
+    </div>
+    <div id="stage" role="img" aria-label="Drehbarer Gesamtaufbau aus zwei Tops und einem Mittelblock">
+      <div id="driver-marker" class="marker" hidden>18″ · B&amp;C 18DS115</div>
+      <div id="wheel-status" class="wheel-status" hidden></div>
+    </div>
+    <div id="note" class="note" aria-live="polite">Zum Drehen ziehen · Mausrad zum Zoomen</div>
+    <div id="way-legend" class="legend" hidden></div>
+    <div id="horn-specs" class="specs" hidden></div>
+  </div>
+</main>
+<script>/*THREE_JS*/</script>
+<script id="model-data" type="application/octet-stream">/*MODEL_DATA*/</script>
+<script type="module">
+const packed=Uint8Array.from(atob(document.getElementById('model-data').textContent),c=>c.charCodeAt(0));
+const stream=new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'));
+const data=await new Response(stream).json();
+window.modelSummary={geometry:data.geometry,parts:data.parts.map(({name,module,kind})=>({name,module,kind}))};
+const stage=document.getElementById('stage'), marker=document.getElementById('driver-marker'), note=document.getElementById('note');
+const hornData=data.geometry.horns;
+const specs=document.getElementById('horn-specs');
+for(const [key,horn] of Object.entries(hornData)){
+  const card=document.createElement('article');
+  card.dataset.hornSpec=key;
+  card.dataset.featured=String(horn.overhang>0);
+  card.innerHTML='<strong>'+key+' · '+horn.name+'</strong><small>Mund '+horn.w+' × '+horn.h+
+    ' mm · '+(horn.overhang?'Vorsprung '+String(horn.overhang).replace('.',',')+' mm':'bündig')+
+    ' · '+String(horn.area).replace('.',',')+' cm² projiziert</small><p>'+horn.description+'</p>';
+  specs.append(card);
+}
+function studioEnvironment(renderer){
+  const panel=document.createElement('canvas'); panel.width=1024; panel.height=512;
+  const ctx=panel.getContext('2d');
+  const gradient=ctx.createLinearGradient(0,0,0,512);
+  gradient.addColorStop(0,'#f7fafc');gradient.addColorStop(.44,'#a9b4b8');
+  gradient.addColorStop(.55,'#58636a');gradient.addColorStop(1,'#b7b5ab');
+  ctx.fillStyle=gradient;ctx.fillRect(0,0,1024,512);
+  for(const [x,y,w,h] of [[78,126,198,138],[455,93,112,162],[745,146,165,132]]){
+    ctx.fillStyle='#fff';ctx.shadowColor='#fff';ctx.shadowBlur=32;ctx.fillRect(x,y,w,h);
+  }
+  const panorama=new THREE.CanvasTexture(panel);
+  panorama.colorSpace=THREE.SRGBColorSpace;
+  panorama.mapping=THREE.EquirectangularReflectionMapping;
+  const pmrem=new THREE.PMREMGenerator(renderer);
+  const environment=pmrem.fromEquirectangular(panorama).texture;
+  panorama.dispose();pmrem.dispose();
+  return environment;
+}
+function localCoordinates(flat,module){
+  const source=flat.attributes.position.array;
+  const local=new Float32Array(source.length);
+  const angle=Math.atan2(100,800), length=Math.hypot(100,800), end=(length-800)/2;
+  const dx=300-end*100/length, dd=end*800/length;
+  const docked=module==='left'||module==='right', cs=Math.cos(angle), sn=Math.sin(angle);
+  for(let i=0;i<source.length;i+=3){
+    const x=(module==='left'?-source[i]:source[i])-dx, d=-source[i+2]-dd;
+    local[i]=docked?x*cs+d*sn:source[i];
+    local[i+1]=source[i+1];
+    local[i+2]=docked?-x*sn+d*cs:-source[i+2];
+  }
+  flat.setAttribute('piecePosition',new THREE.BufferAttribute(local,3));
+}
+function surfaceMaterial(p,flat){
+  const wood=p.kind==='shell'||p.kind==='wood-front';
+  const horn=p.kind.startsWith('horn-');
+  const silver=horn||p.kind==='front';
+  const mat=new THREE.MeshStandardMaterial({
+    color:p.color,metalness:silver?.71:.015,roughness:horn?.26:silver?.42:wood?.62:.74,
+    envMapIntensity:wood?.60:silver?1.12:.72
+  });
+  if(!wood&&!silver)return mat;
+  if(!horn)localCoordinates(flat,p.module);
+  mat.onBeforeCompile=shader=>{
+    shader.vertexShader='attribute vec3 piecePosition; varying vec3 vPiece;\n'+shader.vertexShader
+      .replace('#include <begin_vertex>','#include <begin_vertex>\nvPiece=piecePosition;');
+    shader.fragmentShader=`varying vec3 vPiece;
+      float hashWood(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+      float woodNoise(vec2 p){
+        vec2 i=floor(p),f=fract(p);
+        f=f*f*(3.0-2.0*f);
+        return mix(mix(hashWood(i),hashWood(i+vec2(1,0)),f.x),
+                   mix(hashWood(i+vec2(0,1)),hashWood(i+vec2(1,1)),f.x),f.y);
+      }\n`+shader.fragmentShader;
+    const finish=wood?`
+      vec3 surf=abs(normalize(cross(dFdx(vPiece),dFdy(vPiece))));
+      float dep=vPiece.z, up=vPiece.y;
+      vec2 grain=surf.y>.72?vec2(vPiece.x,dep):vec2(surf.x>.65?dep:vPiece.x,up);
+      float flow=woodNoise(vec2(grain.x*.012,grain.y*.004));
+      float bands=woodNoise(vec2(grain.x*.12+3.2*flow,grain.y*.012));
+      float streak=woodNoise(vec2(grain.x*.62+6.4*flow,grain.y*.028));
+      float grainValue=.88+.20*bands+.13*streak+.09*flow;
+      float left=${p.module==='center'?'-300.+dep*.125':'0.'};
+      float right=${p.module==='center'?'300.-dep*.125':'400.-dep*.125'};
+      float sideGap=min(vPiece.x-left,right-vPiece.x);
+      float upGap=min(up,1200.-up);
+      float layers=sin((upGap+.15)*3.14159);
+      bool exposed=surf.y<.47&&upGap<17.99&&${p.kind==='wood-front'?'dep>2.':'dep<782.'};
+      if(surf.z>.65&&dep>790.&&sideGap<17.99){
+        layers=sin((sideGap+.15)*3.14159);exposed=true;
+      }
+      if(surf.y>.72&&dep<19.&&${p.kind==='wood-front'?'true':'false'}){
+        layers=sin((dep+.15)*3.14159);exposed=true;
+      }
+      if(exposed)diffuseColor.rgb*=mix(vec3(.46,.36,.27),vec3(1.02,.96,.85),smoothstep(-.88,-.38,layers));
+      else diffuseColor.rgb*=grainValue;
+    `:`
+      float dep=${horn?'vPiece.z':'max(0.0,vPiece.z)'};
+      float cavity=1.0-${horn?'.29':'.58'}*smoothstep(${horn?'-95.0':'0.0'},${horn?'164.0':'111.0'},dep);
+      diffuseColor.rgb*=cavity;
+    `;
+    shader.fragmentShader=shader.fragmentShader.replace('#include <color_fragment>','#include <color_fragment>\n'+finish);
+  };
+  mat.customProgramCacheKey=()=>[wood?'wood':'silver',p.kind==='wood-front'?'rim':horn?'horn':'body',p.module==='center'?'mid':'top'].join('/');
+  return mat;
+}
+function creaseNormals(indexed,flat){
+  const ids=indexed.index.array, normals=flat.attributes.normal.array;
+  const incident=Array.from({length:indexed.attributes.position.count},()=>[]);
+  for(let i=0;i<ids.length;i++)incident[ids[i]].push(i*3);
+  const smooth=new Float32Array(normals.length);
+  for(let i=0;i<ids.length;i++){
+    const j=i*3, nx=normals[j], ny=normals[j+1], nz=normals[j+2];
+    let x=0,y=0,z=0;
+    for(const k of incident[ids[i]]){
+      const xx=normals[k], yy=normals[k+1], zz=normals[k+2];
+      if(nx*xx+ny*yy+nz*zz>.82){x+=xx;y+=yy;z+=zz;}
+    }
+    const length=Math.hypot(x,y,z);
+    if(length){smooth[j]=x/length;smooth[j+1]=y/length;smooth[j+2]=z/length;}
+  }
+  flat.setAttribute('normal',new THREE.BufferAttribute(smooth,3));
+}
+function mount(){
+  const scene=new THREE.Scene(), camera=new THREE.PerspectiveCamera(37,1,5,15000);
+  const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+  renderer.localClippingEnabled=true;
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor('#dde1df');stage.append(renderer.domElement);
+  renderer.toneMapping=THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure=1.13;
+  scene.environment=studioEnvironment(renderer);
+  scene.add(new THREE.HemisphereLight(0xf3f8fa,0xaf9d82,.85));
+  const key=new THREE.DirectionalLight(0xfff4e5,1.85);key.position.set(-900,1400,1250);scene.add(key);
+  const rim=new THREE.DirectionalLight(0xe4efff,1.25);rim.position.set(850,1150,-850);scene.add(rim);
+  const fill=new THREE.DirectionalLight(0xf4f5f7,.52);fill.position.set(740,410,900);scene.add(fill);
+  const unpack=(str,Type)=>new Type(Uint8Array.from(atob(str),v=>v.charCodeAt(0)).buffer);
+  const wheelGroup=new THREE.Group();
+  const demoContent=new THREE.Group();
+  wheelGroup.add(demoContent);
+  const wheelInfo=data.geometry;
+  const wheelControls=document.getElementById('wheel-controls');
+  const wheelStatus=document.getElementById('wheel-status');
+  scene.add(wheelGroup);
+  function makeGeometry(p){
+    const g=new THREE.BufferGeometry();
+    g.setAttribute('position',new THREE.BufferAttribute(unpack(p.v,Float32Array),3));
+    g.setIndex(new THREE.BufferAttribute(unpack(p.t,Uint32Array),1));
+    return g;
+  }
+  const horns=Object.fromEntries(Object.entries(data.hornMeshes).map(([key,spec])=>{
+    const indexed=makeGeometry(spec), flat=indexed.toNonIndexed();
+    flat.computeVertexNormals();
+    creaseNormals(indexed,flat);
+    localCoordinates(flat,'demo');
+    return [key,flat];
+  }));
+  const motorGeometry=makeGeometry(data.motorMesh).toNonIndexed();
+  motorGeometry.computeVertexNormals();
+  const motorMaterial=new THREE.MeshStandardMaterial({color:0x2d3439,roughness:.83,metalness:.14});
+  function mountMotor(mesh,key){
+    const motor=new THREE.Mesh(motorGeometry,motorMaterial);
+    motor.position.z=-hornData[key].d-9;
+    mesh.add(motor);
+  }
+  const a=Math.atan2(100,800), l=Math.hypot(100,800), end=(l-800)/2;
+  const sideX=300-end*100/l+200*Math.cos(a),sideZ=-end*800/l-200*Math.sin(a);
+  const parts=data.parts.map(p=>{
+    const horn=p.kind.startsWith('horn-');
+    const g=horn?null:makeGeometry(p);
+    const flat=horn?horns[p.kind.slice(5)]:g.toNonIndexed();
+    if(!horn)flat.computeVertexNormals();
+    if(p.name.endsWith('Frontkanäle'))creaseNormals(g,flat);
+    const mat=surfaceMaterial(p,flat);
+    const mesh=new THREE.Mesh(flat,mat);
+    if(horn){
+      mountMotor(mesh,p.kind.slice(5));
+      if(p.module==='center')mesh.position.set(0,600,0);
+      else if(p.module==='demo')mesh.position.set(200,600,0);
+      else{
+        const sign=p.module==='left'?-1:1;
+        mesh.position.set(sign*sideX,600,sideZ);
+        mesh.rotation.y=sign*a;
+        mesh.scale.x=sign;
+      }
+    }
+    if(p.module==='demo'){
+      demoContent.add(mesh);
+    }else{scene.add(mesh);}
+    let outline=null;
+    if(p.kind==='shell'&&p.module!=='demo'){
+      outline=new THREE.LineSegments(new THREE.EdgesGeometry(g,40),
+        new THREE.LineBasicMaterial({color:p.module==='center'?0xa3b1af:0x6e7e7c,transparent:true,opacity:p.module==='center'?.8:.4}));
+      scene.add(outline);
+    }
+    return {...p,mesh,outline};
+  });
+  const comparison=new THREE.Group();
+  const samples=Object.keys(hornData).map((key,index)=>{
+    const original=parts.find(p=>p.module==='demo'&&p.kind==='horn-'+key);
+    const mat=original.mesh.material.clone();
+    mat.onBeforeCompile=original.mesh.material.onBeforeCompile;
+    mat.customProgramCacheKey=original.mesh.material.customProgramCacheKey;
+    const mesh=new THREE.Mesh(original.mesh.geometry,mat);
+    const isNew=hornData[key].overhang>0;
+    const slot=isNew?index-6:index;
+    const galleryPosition=new THREE.Vector3(isNew?(slot%2-.5)*420:(slot%3-1)*325,
+      slot<(isNew?2:3)?535:170,0);
+    mesh.position.copy(galleryPosition);
+    mesh.material.side=THREE.DoubleSide;
+    mountMotor(mesh,key);
+    comparison.add(mesh);
+    const tag=document.createElement('span');
+    tag.className='sample-tag';
+    tag.textContent=key+' · '+hornData[key].name;
+    tag.setAttribute('aria-hidden','true');
+    stage.append(tag);
+    return {key,mesh,tag,isNew,galleryPosition};
+  });
+  scene.add(comparison);
+  const wavesBase=new THREE.Group(),wavesThree=new THREE.Group(),wavesFour=new THREE.Group();
+  const colors={red:0xda2438,blue:0x185ce5,yellow:0xde9900};
+  const coaxWaves=[];
+  function wave(group,start,direction,travel,rise,swing,phase,color,dotted=false){
+    const ranges=dotted?Array.from({length:12},(_,i)=>[i/12,(i+.52)/12]):[[0,1]];
+    const material=new THREE.MeshBasicMaterial({color,transparent:true,opacity:.98,depthWrite:false,toneMapped:false});
+    for(const [a,b] of ranges){
+      const points=[];
+      for(let i=0;i<=28;i++){
+        const t=a+(b-a)*i/28;
+        points.push(start.clone().addScaledVector(direction,travel*t).add(
+          new THREE.Vector3(swing*t,rise*t+15*Math.sin(phase+Math.PI*5.7*t)*Math.sin(Math.PI*t)**.58,0)));
+      }
+      const tube=new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),dotted?12:84,3.5,6),material);
+      group.add(tube);
+    }
+  }
+  for(const side of [-1,0,1]){
+    const angle=side*a, origin=side===0?new THREE.Vector3():new THREE.Vector3(side*sideX,0,sideZ);
+    const direction=new THREE.Vector3(Math.sin(angle),0,Math.cos(angle));
+    const lateral=new THREE.Vector3(Math.cos(angle),0,-Math.sin(angle));
+    function start(x,h){
+      return origin.clone().addScaledVector(lateral,x).add(new THREE.Vector3(0,h,3));
+    }
+    for(const s of [-1,1]){
+      wave(wavesBase,start(s*75,600+s*486),direction,465,s*25,s*30,0,colors.red);
+      wave(wavesBase,start(s*44,600+s*232),direction,365,s*31,s*37,.9,colors.blue);
+    }
+    const three=new THREE.Group(), four=new THREE.Group();
+    wave(three,start(0,600),direction,420,5,5,.6,colors.yellow);
+    wave(four,start(-18,590),direction,395,-41,-41,.2,colors.yellow);
+    wave(four,start(18,610),direction,460,53,56,.8,colors.yellow,true);
+    wavesThree.add(three);wavesFour.add(four);
+    coaxWaves.push({three,four,direction});
+  }
+  scene.add(wavesBase,wavesThree,wavesFour);
+  const floor=new THREE.Mesh(new THREE.PlaneGeometry(15000,15000),
+    new THREE.MeshBasicMaterial({color:'#dde1df',toneMapped:false}));
+  floor.rotation.x=-Math.PI/2;floor.position.y=-4;scene.add(floor);
+  const grid=new THREE.GridHelper(530,26,0x66797c,0x546468);
+  grid.position.set(151,-.08,-745);scene.add(grid);
+  const shadowCanvas=document.createElement('canvas');shadowCanvas.width=256;shadowCanvas.height=256;
+  const context=shadowCanvas.getContext('2d'), gradient=context.createRadialGradient(128,128,18,128,128,125);
+  gradient.addColorStop(0,'rgba(14,17,17,0.66)');gradient.addColorStop(.63,'rgba(14,17,17,0.33)');gradient.addColorStop(1,'rgba(14,17,17,0)');
+  context.fillStyle=gradient;context.fillRect(0,0,256,256);
+  const shadow=new THREE.Mesh(new THREE.PlaneGeometry(1900,1320),
+    new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(shadowCanvas),transparent:true,depthWrite:false}));
+  shadow.rotation.x=-Math.PI/2;shadow.position.set(0,-2,-378);scene.add(shadow);
+  let view='all',theta=.32,phi=.17,dist=2600,tilt=0,variant=data.geometry.featured,side=false,gallery='new',
+    hornTurned=false,inspection='mouth',ways=3,target=new THREE.Vector3(0,587,-270);
+  const caption={
+    all:'Zum Drehen ziehen · Mausrad zum Zoomen',
+    front:'Tops je 4 × 6 Zellen · Mitte 6 × 6 Zellen · durchgehender Rahmen um jede Front',
+    cut:'18DS115 unter dem Treiberträger, Membran nach oben. Die Einbaulage ist dargestellt; der Übergang zu den neuen Bassöffnungen ist noch auszulegen.',
+    plan:'Die geraden Flanken der Tops liegen an den Schrägen des Mittelblocks.',
+    wheels:'Zwei Ø100 mm Bluewheels · Radmitten je 44 mm von der hinteren Seitenkante · durchgehende 45°-Schräge',
+    rear:'Drei durchgehende 45°-Schrägen, jeweils mit zwei Rollen nahe an den Seiten.',
+    waves:'Schematische Wellenlinien für die akustischen Wege. Verlauf und Wellenlänge sind illustrativ.',
+    horns:'Kassetten im gemeinsamen 270-mm-Sitz · Zum Drehen ziehen'
+  };
+  function render(){
+    const aspectFloor=view==='wheels'?1.05:view==='horns'?1.62:1.36;
+    const factor=Math.max(1,aspectFloor/camera.aspect);
+    camera.position.set(target.x+dist*factor*Math.cos(phi)*Math.sin(theta),
+      target.y+dist*factor*Math.sin(phi),target.z+dist*factor*Math.cos(phi)*Math.cos(theta));
+    camera.lookAt(target);
+    renderer.render(scene,camera);
+    for(const {mesh,tag} of samples){
+      tag.hidden=view!=='horns'||!mesh.visible;
+      if(tag.hidden)continue;
+      const point=mesh.position.clone().add(new THREE.Vector3(0,-145,12)).project(camera);
+      tag.style.left=(point.x*.5+.5)*stage.clientWidth+'px';
+      tag.style.top=(.5-point.y*.5)*stage.clientHeight+'px';
+    }
+    marker.hidden=view!=='cut';
+    if(view==='cut'){
+      const point=new THREE.Vector3(0,150,-332).project(camera);
+      const left=(point.x/2+.5)*stage.clientWidth;
+      const top=(.5-point.y/2)*stage.clientHeight+19;
+      marker.style.left=Math.min(stage.clientWidth-90,Math.max(90,left))+'px';
+      marker.style.top=Math.min(stage.clientHeight-37,Math.max(9,top))+'px';
+    }
+  }
+  function viewParts(){
+    const wheels=view==='wheels';
+    const demo=wheels||view==='top';
+    const showHorns=view==='all'||view==='front'||view==='top'||view==='waves';
+    wheelControls.hidden=!wheels;
+    wheelStatus.hidden=!wheels;
+    wheelGroup.visible=demo;
+    comparison.visible=view==='horns';
+    document.getElementById('horn-controls').hidden=!showHorns;
+    document.getElementById('orientation-controls').hidden=view!=='top';
+    document.getElementById('section-controls').hidden=view!=='horns';
+    document.getElementById('way-controls').hidden=view!=='waves';
+    document.querySelector('.subbar').hidden=!(showHorns||view==='horns');
+    specs.hidden=view!=='horns';
+    const wayLegend=document.getElementById('way-legend');
+    wayLegend.hidden=view!=='waves';
+    wayLegend.innerHTML='<span><i class="red"></i>Bass</span><span><i class="blue"></i>Tiefmittelton</span>'+
+      (ways===3?'<span><i class="yellow"></i>Koax-Mittel-/Hochton</span>':
+        '<span><i class="yellow"></i>Koax-Mittelton</span><span><i class="yellow dotted"></i>Koax-Hochton</span>');
+    wavesBase.visible=view==='waves';
+    wavesThree.visible=view==='waves'&&ways===3;
+    wavesFour.visible=view==='waves'&&ways===4;
+    floor.position.y=wheels?-.18:-4;
+    grid.visible=wheels;
+    shadow.visible=!demo&&view!=='horns';
+    for(const p of parts){
+      const c=p.module==='center';
+      const horn=p.kind.startsWith('horn-');
+      const visibleSurface=['shell','wood-front','front','wheel'].includes(p.kind)||(horn&&p.kind==='horn-'+variant);
+      p.mesh.visible=demo?p.module==='demo'&&visibleSurface:p.module!=='demo'&&view!=='horns'&&
+        (view==='cut'?c&&['driver','baffle'].includes(p.kind):visibleSurface);
+      if(horn&&p.module==='demo'){p.mesh.rotation.z=view==='top'&&hornTurned?-Math.PI/2:0;}
+      if(p.outline){p.outline.visible=view==='cut';}
+    }
+    const horn=hornData[variant];
+    for(const {three,four,direction} of coaxWaves){
+      three.position.copy(direction).multiplyScalar(horn.overhang);
+      four.position.copy(three.position);
+    }
+    const activeHorn=variant+' '+horn.name+(horn.overhang?' · '+String(horn.overhang).replace('.',',')+' mm Vorsprung':'');
+    note.textContent=view==='top'?(side?'Top quer':'Top hoch')+' · Kassette '+(hornTurned?'90°':'0°')+
+      ' zum Gehäuse · '+activeHorn:showHorns?activeHorn+' · '+caption[view]:caption[view];
+    stage.setAttribute('aria-label',view==='cut'?'Schnittansicht des Mittelblocks mit 18-Zöller':'Drehbarer Gesamtaufbau aus zwei Tops und einem Mittelblock');
+    document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
+    document.querySelectorAll('[data-horn]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.horn===variant)));
+    document.querySelectorAll('[data-box]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.box==='side')===side)));
+    document.querySelectorAll('[data-section]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.section===inspection)));
+    document.querySelectorAll('[data-gallery]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.gallery===gallery)));
+    document.querySelectorAll('[data-ways]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.ways)===ways)));
+    document.getElementById('turn-horn').setAttribute('aria-pressed',String(hornTurned));
+    specs.dataset.gallery=gallery;
+    for(const {key,mesh,isNew,galleryPosition} of samples){
+      mesh.visible=gallery==='manta'?key==='G'||key==='G2':gallery==='new'?isNew&&key!=='G2':!isNew;
+      if(gallery==='manta')mesh.position.set(key==='G'?-223:223,347,0);
+      else mesh.position.copy(galleryPosition);
+      specs.querySelector('[data-horn-spec="'+key+'"]').hidden=!mesh.visible;
+      const yaw=inspection==='side'||inspection==='vertical'?1.36:inspection==='cut'?.12:
+        gallery==='manta'?.48:{F:.30,G:.23,H:.49,I:.73}[key]??0;
+      mesh.rotation.y=yaw;
+      mesh.children[0].visible=inspection==='mouth';
+      mesh.material.clippingPlanes=[];
+      if(inspection==='cut'){
+        mesh.material.clippingPlanes.push(new THREE.Plane(new THREE.Vector3(0,-1,0),mesh.position.y));
+      }
+      if(inspection==='vertical'){
+        const normal=new THREE.Vector3(Math.cos(yaw),0,-Math.sin(yaw));
+        mesh.material.clippingPlanes.push(new THREE.Plane(normal,-normal.dot(mesh.position)));
+      }
+    }
+  }
+  function setTilt(angle){
+    tilt=angle;
+    const rad=THREE.MathUtils.degToRad(angle);
+    const clearance=wheelInfo.z*Math.cos(rad)-(wheelInfo.d-wheelInfo.pivot)*Math.sin(rad)-wheelInfo.radius;
+    demoContent.position.set(0,0,wheelInfo.pivot);
+    wheelGroup.rotation.set(-rad,0,0);
+    wheelGroup.position.set(0,Math.max(0,-clearance),-wheelInfo.pivot);
+    wheelStatus.textContent=angle===0?'Stand · 8 mm Luft unter den Rädern':
+      angle+'° gekippt · Bodenauflage auf den Rädern';
+    document.querySelectorAll('[data-tilt]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.tilt)===angle)));
+  }
+  function reset(){
+    if(view==='all'){theta=.78;phi=.25;dist=2580;target.set(40,537,-335);}
+    if(view==='front'){theta=0;phi=.0;dist=2400;target.set(0,600,-170);}
+    if(view==='waves'){theta=.34;phi=.20;dist=2670;target.set(0,580,-85);}
+    if(view==='rear'){theta=2.83;phi=.12;dist=2510;target.set(0,560,-420);}
+    if(view==='cut'){theta=.64;phi=.16;dist=2510;target.set(0,530,-350);}
+    if(view==='plan'){theta=0;phi=1.565;dist=2400;target.set(0,560,-425);}
+    if(view==='wheels'){theta=2.82;phi=.07;dist=505;target.set(150,102,-745);setTilt(tilt);}
+    if(view==='top'){
+      demoContent.position.set(0,0,0);
+      wheelGroup.rotation.set(0,0,side?Math.PI/2:0);
+      wheelGroup.position.set(side?600:0,0,0);
+      theta=.14;phi=side?.18:.10;dist=side?1450:2290;target.set(side?0:200,side?205:600,-140);
+    }
+    if(view==='horns'){
+      const profile=inspection==='side'||inspection==='vertical';
+      theta=inspection==='cut'?.12:profile?0:gallery==='new'?.07:.08;
+      phi=inspection==='cut'?.51:profile?.05:.16;
+      dist=gallery==='manta'?1120:gallery==='new'?1320:1410;
+      target.set(0,347,gallery==='previous'?-65:4);
+    }
+    viewParts();render();
+  }
+  function resize(){renderer.setSize(stage.clientWidth,stage.clientHeight);camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix();render();}
+  new ResizeObserver(resize).observe(stage);
+  document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{view=b.dataset.view;reset();}));
+  document.querySelectorAll('[data-tilt]').forEach(b=>b.addEventListener('click',()=>{setTilt(Number(b.dataset.tilt));render();}));
+  document.querySelectorAll('[data-horn]').forEach(b=>b.addEventListener('click',()=>{variant=b.dataset.horn;viewParts();render();}));
+  document.querySelectorAll('[data-ways]').forEach(b=>b.addEventListener('click',()=>{ways=Number(b.dataset.ways);viewParts();render();}));
+  document.querySelectorAll('[data-box]').forEach(b=>b.addEventListener('click',()=>{
+    side=b.dataset.box==='side';hornTurned=side;reset();
+  }));
+  document.getElementById('turn-horn').addEventListener('click',()=>{hornTurned=!hornTurned;viewParts();render();});
+  document.querySelectorAll('[data-section]').forEach(b=>b.addEventListener('click',()=>{inspection=b.dataset.section;reset();}));
+  document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>{gallery=b.dataset.gallery;reset();}));
+  document.getElementById('reset').addEventListener('click',reset);
+  let drag=null;
+  renderer.domElement.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];renderer.domElement.setPointerCapture(e.pointerId);});
+  renderer.domElement.addEventListener('pointermove',e=>{
+    if(!drag)return;
+    theta-=(e.clientX-drag[0])*.007;phi=Math.max(-1.4,Math.min(1.565,phi+(e.clientY-drag[1])*.007));
+    drag=[e.clientX,e.clientY];render();
+  });
+  for(const event of ['pointerup','pointercancel'])renderer.domElement.addEventListener(event,()=>{drag=null;});
+  renderer.domElement.addEventListener('wheel',e=>{e.preventDefault();dist=Math.max(view==='wheels'?270:950,Math.min(6100,dist*Math.exp(e.deltaY*.001)));render();},{passive:false});
+  resize();reset();window.modelReady=true;
+}
+try{mount();}catch(err){console.error(err);stage.insertAdjacentHTML('beforeend','<p class="fallback">Die drehbare Ansicht benötigt WebGL.</p>');}
+</script>
+</body>
+</html>
