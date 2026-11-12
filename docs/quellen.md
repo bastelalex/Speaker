@@ -127,3 +127,21 @@ Primärpatent; Kontrolle der Wellenfrontkrümmung für rechteckige bzw. schlitzf
 [JBL Professional, Directivity / Waveguide-Technologien](https://jblpro.com/hi/innovation-directivity)
 
 Herstellerhintergrund zu Konturübergängen und Richtwirkung. Katalog-Superellipse ist eine eigene mathematische Studie, keine Image-Control-Rekonstruktion. Direkter Seitenabruf 403; offizieller indexierter Inhalt gelesen.
+
+## L1D · LaVoce DN10.20-16, aktuelles Hersteller-Datenblatt
+
+[LaVoce DN10.20-16, aktuelles Hersteller-Datenblatt](https://www.lavocespeakers.com/wp-admin/admin-post.php?action=lv_generate_pdf&page=4973)
+
+Hersteller-PDF geprüft: Hochpass mindestens 1200 Hz und mindestens 12 dB/Okt.; 108 dB bei 2,83 V / 1 m auf HD1003, Mittel 1–18 kHz. 16 Ohm sind kein 1-W-Bezug bei 2,83 V.
+
+## L2D · LaVoce DN20.30TK, aktuelles Hersteller-Datenblatt
+
+[LaVoce DN20.30TK, aktuelles Hersteller-Datenblatt](https://lavocespeakers.com/wp-admin/admin-post.php?action=lv_generate_pdf&page=4955)
+
+Hersteller-PDF geprüft: Hochpass mindestens 800 Hz und mindestens 12 dB/Okt.; 108 dB bei 2,83 V / 1 m auf 60×40-Horn, Mittel 0,5–20 kHz.
+
+## A5 · COMSOL, Baffled Piston Radiation, Application Library 6.3
+
+[COMSOL, Baffled Piston Radiation, Application Library 6.3](https://doc.comsol.com/6.3/doc/com.comsol.help.models.aco.baffled_piston_radiation/models.aco.baffled_piston_radiation.pdf)
+
+Offizielle Referenz für Rayleigh-Integral, Bessel/Struve-Strahlungsimpedanz und axialsymmetrischen Kolbenstrahler. Formeln als analytische Benchmark genutzt; kein COMSOL-Programm ausgeführt oder fremdes Modell übernommen.
