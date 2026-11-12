@@ -1,0 +1,1323 @@
+%PDF-1.4
+% ASCII edition
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 30 /Kids [11 0 R 16 0 R 19 0 R 22 0 R 25 0 R 29 0 R 32 0 R 35 0 R 37 0 R 40 0 R 43 0 R 48 0 R 50 0 R 52 0 R 55 0 R 59 0 R 62 0 R 64 0 R 70 0 R 74 0 R 79 0 R 85 0 R 87 0 R 90 0 R 93 0 R 98 0 R 100 0 R 102 0 R 104 0 R 122 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 2905 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Entwicklungsatlas f\374r Horn-) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 716 Tm (Waveguides) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Fachbrosch\374re  *  30 Seiten  *  Ausgabe 1.0) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Diese Brosch\374re f\374hrt von einer gew\374nschten horizontalen und vertikalen Abstrahlung und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (einem Frequenzband zu einem pr\374fbaren Waveguide-Vorentwurf. Sie behandelt Raketen- und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Axtkopf-Phaseplugs, klassische Multicell-H\366rner, Polycell als hier verwendeten) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (Arbeitsbegriff, Turbosound Polyhorn sowie Kompressionskammern. Treiberbeispiele stammen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 591 Tm (von LaVoce und JBL. Der Schwerpunkt liegt auf Zusammenh\344ngen zwischen Querschnitt,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 576 Tm (Laufweg, Wellenl\344nge und Richtwirkung.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Das Ergebnis ist ein Entwicklungswerkzeug: Formeln liefern Startma\337e und zeigen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Zielkonflikte. Gemessene Polardaten, Belastbarkeit am konkreten Horn und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (fertigungsgerechte Originalma\337e werden dadurch nicht ersetzt. Es liegen keine eigenen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (BEM-, FEM- oder Prototypmessungen vor. Alle Katalogentw\374rfe sind eigenst\344ndige Studien,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 491 Tm (keine freigegebenen Turbosound-Nachbauten.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Zielkette: Anforderung -> Modell -> Geometrie -> Simulation -> Messung) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Leseschl\374ssel: H = Herstellerdatum; R = Rechenmodell; E = eigener Entwurf.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Quellenkennungen verweisen auf das Quellenregister.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (L1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (L2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 163 35 Tm (J1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 189 35 Tm (J2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (1 / 30) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.fullcompass.com/common/files/17437-TA880UserManual.pdf) >> >>
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://www.lavocespeakers.com/product/dn10-20/) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://lavocespeakers.com/product/dn20-30tk/) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [163 30 188 43] /Border [0 0 0] /A << /S /URI /URI (https://adn.harmanpro.com/product_documents/documents/7602_1574029357/2426_original.pdf) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [189 30 214 43] /Border [0 0 0] /A << /S /URI /URI (https://jblpro.com/en/product_documents/2446-pdf) >> >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R /Annots [6 0 R 7 0 R 8 0 R 9 0 R 10 0 R] >>
+endobj
+12 0 obj
+<< /Length 2858 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Begriffe und Systemgrenzen) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Ein Phaseplug ist noch kein vollst\344ndiges Horn) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Ein Waveguide f\374hrt Schall entlang von Grenzfl\344chen; ein Horn kann zus\344tzlich die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (akustische Last am Treiber transformieren. Im praktischen Lautsprecherbau \374berlappen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (beide Funktionen. Ein Kompressionstreiber besitzt bereits Membran, Vorderkammer und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (internen Phaseplug. Sein Austrittsdurchmesser bezeichnet die Hornschnittstelle und ist) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (weder Membran- noch Schwingspulendurchmesser.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Eine Rakete bezeichnet hier einen zentralen, axial verl\344ngerten Verdr\344ngungsk\366rper.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Axtkopf bezeichnet einen in einer Ebene keilartigen K\366rper. Diese anschaulichen Namen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (sind keine hinreichende technische Spezifikation. Multicell beschreibt getrennte) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Zellen; ein Mehrtreiber-Manifold verbindet dagegen mehrere Quellen mit einem) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (gemeinsamen Ausgang. Eine Aufteilung eines Treibers in mehrere Kan\344le ist wiederum ein) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (anderes System. Die Begriffe m\374ssen in Zeichnungen durch Fl\344chen, Wege und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (Quellenzuordnung erg\344nzt werden.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (N = Zahl der Kan\344le; N_T = Zahl der Treiber; N ist nicht automatisch N_T.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Bei JBL und LaVoce bleibt der interne Phaseplug unangetastet. Externe Eins\344tze ben\366tigen) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (eine eigene akustische Auslegung.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (T3) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (J1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (2 / 30) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US4882562A/en) >> >>
+endobj
+14 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/GB2404520A/en) >> >>
+endobj
+15 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://adn.harmanpro.com/product_documents/documents/7602_1574029357/2426_original.pdf) >> >>
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R /Annots [13 0 R 14 0 R 15 0 R] >>
+endobj
+17 0 obj
+<< /Length 2537 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Anforderungen richtig formulieren) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Abstrahlung braucht Frequenz und Pegelkriterium) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Als Eingabe werden die vollen \326ffnungswinkel horizontal und vertikal verwendet,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (beispielsweise 90\260 \327 40\260. Das gew\374nschte Frequenzband reicht von f_lo bis f_hi. Eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (belastbare Anforderung nennt au\337erdem das Kriterium f\374r die Strahlbreite, \374blich etwa) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (-6 dB relativ zur Achse, den g\374ltigen Frequenzbereich und die zul\344ssige Abweichung. Der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Wandwinkel eines Horns entspricht nicht automatisch der gemessenen Strahlbreite.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Zwei Eingaben allein bestimmen keine eindeutige Geometrie. Deshalb setzt der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Konfigurator offen ausgewiesene Projektannahmen: Luft bei 20 \260C, vereinfachte Apertur,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (geradlinige Aufweitung, ausgew\344hlter Treiber und gegebenenfalls Zellenzahl. F\374r eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (finale Konstruktion kommen Maximalpegel, Distanz, Bauraum, Filter und Fertigung hinzu.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Ohne diese Angaben ist eine thermische oder mechanische Freigabe nicht m\366glich.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (theta_H, theta_V = volle Winkel in Grad; f_lo < f_hi, Einheit Hz.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Pr\374ffrage: Soll 90\260 bei 1 kHz gelten oder erst oberhalb 4 kHz? Das ergibt sehr) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (unterschiedliche Mundma\337e.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (A2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (3 / 30) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://aes.org/publications/elibrary/elibrary-page/?id=6078) >> >>
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 17 0 R /Annots [18 0 R] >>
+endobj
+20 0 obj
+<< /Length 2384 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Wellenl\344nge und Laufzeit) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Der Ma\337stab jeder geometrischen Entscheidung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (F\374r eine erste Rechnung wird die Schallgeschwindigkeit mit c = 343 m/s angesetzt. Damit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (betr\344gt die Wellenl\344nge bei 1 kHz 343 mm, bei 10 kHz 34,3 mm und bei 20 kHz 17,15 mm.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Ein mechanisch kleiner Versatz kann am oberen Bandende bereits eine erhebliche) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Phasenabweichung verursachen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 611 Tm (Die Laufzeit eines Weges ist seine L\344nge geteilt durch c. F\374r die Differenz zweier Wege) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (ist nur deren Differenz ma\337gebend. Im Konfigurator dient 45\260 als frei gew\344hltes) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Phasenbudget; daraus entsteht Deltal_max = c/\0508 f_hi\051. Bei 18 kHz sind das etwa 2,38) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (mm. Dieser Wert ist kein Fertigungstoleranzstandard. Er beschreibt lediglich, wie) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (streng gleich lange Kan\344le im einfachen Laufwegmodell sein m\374ssten. Wandreflexionen und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Modenkonversion k\366nnen dar\374ber hinaus Phase ver\344ndern.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (lambda = c/f; Deltat = Deltal/c; Deltaphi = 360\260  *  f  *  Deltal/c.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Beispiel: 5 mm Wegdifferenz verursachen bei 10 kHz ungef\344hr 52,5\260 Phasenunterschied.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (A1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (4 / 30) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://pmc.ncbi.nlm.nih.gov/articles/PMC1091593/) >> >>
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R /Annots [21 0 R] >>
+endobj
+23 0 obj
+<< /Length 2462 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Akustische Gr\366\337en und Einheiten) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Druck, Volumenstrom und Leistung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Schalldruck p hat die Einheit Pascal. Der Volumenstrom U ist das Integral der normalen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Teilchengeschwindigkeit \374ber einen Querschnitt und wird in m^3/s angegeben. F\374r die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (ebene fortschreitende Welle ist die akustische Impedanz bezogen auf Volumenstrom Z_a =) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (p/U = rhoc/S. Dieser Bezug unterscheidet sich von der spezifischen Impedanz p/v = rhoc.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 611 Tm (Eine kleinere Fl\344che erzeugt bei gleichem Volumenstrom h\366here Geschwindigkeit. Daraus) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (l\344sst sich keine beliebige Leistungssteigerung ableiten, denn viskose Verluste,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (nichtlineare Ausbreitung und Membranhub begrenzen das System. F\374r harmonische) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Spitzenwert-Zeiger lautet die mittlere Wirkleistung ein Halb mal Realteil von p mal) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (konjugiertem U. Bei Effektivwert-Zeigern entf\344llt der Faktor ein Halb. Die verwendete) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Konvention muss im Simulationsbericht stehen.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Z_a = rhoc/S [Pa * s/m^3]; P = 1/2 Re{p U*} bei Spitzenwert-Zeigern.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Projektluft: rho = 1,204 kg/m^3. Alle Formeln im Rechenkern verwenden Meter, Hertz und) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Kubikmeter.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (A1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (5 / 30) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://pmc.ncbi.nlm.nih.gov/articles/PMC1091593/) >> >>
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 23 0 R /Annots [24 0 R] >>
+endobj
+26 0 obj
+<< /Length 2713 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Websters Hornmodell) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (N\374tzliche 1D-N\344herung mit klaren Grenzen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Die eindimensionale Hornbeschreibung betrachtet einen \374ber den Querschnitt gemittelten) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Druck. F\374r eine Fl\344chenfunktion S\050x\051 entsteht eine Differentialgleichung, die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Ausbreitung und Fl\344chen\344nderung verbindet. Sie erkl\344rt, weshalb zwei gleich lange) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Kan\344le mit unterschiedlichen Fl\344chenverl\344ufen unterschiedliche Eingangsimpedanzen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (zeigen k\366nnen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Das Modell setzt einen geeigneten, weitgehend einheitlichen Zustand \374ber den) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Querschnitt voraus. Es bildet weder vollst\344ndige dreidimensionale Polarantwort noch die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Feldverteilung um einen Axtkopf zuverl\344ssig ab. Es ist deshalb ein Werkzeug f\374r Last) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (und Ausbreitung, kein Ersatz f\374r ein Richtwirkungsmodell. Bei abrupten Verzweigungen,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (scharfen Kanten und hochfrequent angeregten Querformen muss ein r\344umliches Verfahren) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (folgen. In diesem Projekt werden keine 1D-Ergebnisse als reale Frequenzg\344nge) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (ausgegeben.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (\0501/S\051 d/dx [S dp/dx] + k^2p = 0; k = 2pif/c.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Dokumentation: Fl\344chenfunktion, Randbedingung am Mund und Quellenbedingung am Hals immer) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (gemeinsam angeben.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (A1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (A2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (6 / 30) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://pmc.ncbi.nlm.nih.gov/articles/PMC1091593/) >> >>
+endobj
+28 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://aes.org/publications/elibrary/elibrary-page/?id=6078) >> >>
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R /Annots [27 0 R 28 0 R] >>
+endobj
+30 0 obj
+<< /Length 2684 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Konisch und exponentiell) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Fl\344chenverlauf und Winkelf\374hrung sind verschiedene Ziele) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Ein rotationssymmetrischer konischer Kanal hat einen linear wachsenden Radius und damit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (quadratisch wachsende Fl\344che. F\374r eine rechteckige Studie k\366nnen Breite und H\366he) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (jeweils linear wachsen. Das exponentielle Vergleichshorn verwendet dagegen einen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (exponentiellen Fl\344chenverlauf. Seine theoretische Grenzfrequenz folgt aus der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (eindimensionalen Wellengleichung f\374r das idealisierte, unendliche Horn.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Ein reales endliches Horn besitzt Mundreflexionen und einen Treiber mit eigener) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Impedanz. Die theoretische Grenzfrequenz darf deshalb nicht direkt zur Trennfrequenz) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (werden. Der Konfigurator berechnet aus Mund- und Halsfl\344che einen \344quivalenten) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Exponentialparameter als Vergleichswert, obwohl seine gezeichnete Kontur geradlinig) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (ist. Dieser Vergleichswert ist ausdr\374cklich keine Simulation der gew\344hlten Form. Breite) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Abstrahlung und tiefe Last erfordern oft getrennte Optimierungsschritte.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (S_exp\050x\051 = S_t exp\050mx\051; m = ln\050S_m/S_t\051/L; f_c,exp = mc/\0504pi\051.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (F\374r denselben Hals und Mund \344ndert eine gr\366\337ere L\344nge m. Das sagt noch nichts \374ber die) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (tats\344chliche Strahlbreite.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (A1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (7 / 30) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://pmc.ncbi.nlm.nih.gov/articles/PMC1091593/) >> >>
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R /Annots [31 0 R] >>
+endobj
+33 0 obj
+<< /Length 2557 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Mundgr\366\337e aus einer Apertur) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Eine nachvollziehbare Startsch\344tzung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Die Vorbemessung behandelt jede Hauptachse als gleichm\344\337ig belegte, ebene) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Rechteckapertur. Deren normierter Fernfelddruck ist eine sinc-Funktion. F\374r halben) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Schalldruck, ungef\344hr -6 dB, liegt das erste positive Argument bei rund 1,895. Daraus) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (ergibt sich eine Startgr\366\337e f\374r jede Achse. Sie w\344chst mit Wellenl\344nge und wird bei) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (engerem Zielwinkel gr\366\337er.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Die wirkliche Hornm\374ndung besitzt eine gekr\374mmte Wellenfront und ungleichm\344\337ige) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Belegung; die Formel ist deshalb keine allgemeine Hornregel. Sie erlaubt aber eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (ehrliche Gr\366\337enordnung ohne erfundene Polardaten. Eine besonders gro\337e vertikale) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Abmessung bei engem vertikalem Winkel ist in diesem Modell erwartbar. F\374r den Entwurf) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (wird mindestens Halsdurchmesser plus 10 mm angesetzt, damit der Mund nicht kleiner als) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (die Schnittstelle wird.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (|sin\050u\051/u| = 0,5 bei u ~ 1,895; D ~ 0,603 lambda / sin\050theta/2\051.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Alle Winkel in der Formel im Bogenma\337 auswerten. theta bezeichnet den vollen -6-dB-) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Zielwinkel.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (A2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (8 / 30) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://aes.org/publications/elibrary/elibrary-page/?id=6078) >> >>
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 33 0 R /Annots [34 0 R] >>
+endobj
+36 0 obj
+<< /Length 2467 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (L\344nge und Geometrieh\374lle) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Ein Bauraumvorschlag, keine eindeutige L\366sung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Aus Mundbreite W, Mundh\366he H und Halsdurchmesser d entsteht eine einfache) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (L\344ngensch\344tzung. In jeder Achse wird die zur Zielwinkelh\344lfte passende geradlinige) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Aufweitung berechnet. Die gr\366\337ere der beiden L\344ngen wird als gemeinsame Hornl\344nge) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (verwendet. Dadurch ist in mindestens einer Achse der tats\344chliche Wandwinkel kleiner) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (als der Zielwinkel; der Konfigurator zeigt beide Werte separat.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Diese Geometrieh\374lle dient zur Platzplanung und zur Erstellung eines ersten CAD-) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Modells. Hals\374bergang, Mundverrundung, Flansch und Treibertiefe kommen hinzu. Die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Zeichnung verwendet einen rechteckigen Hals als schematischen \334bergang; der reale runde) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Treiberaustritt erfordert einen glatten Rund-auf-Rechteck-Adapter. Die akustische) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Gleichwertigkeit dieser \334bergangszone wird nicht vorausgesetzt.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (L = max[\050W-d\051/\0502 tan\050theta_H/2\051\051, \050H-d\051/\0502 tan\050theta_V/2\051\051].) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Wandwinkel tats\344chlich: 2 atan\050\050D-d\051/\0502L\051\051. Flanschma\337e sind nicht im akustischen) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Mundma\337 enthalten.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (9 / 30) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 36 0 R /Annots [] >>
+endobj
+38 0 obj
+<< /Length 2749 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Raketen-Phaseplug) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Ringkanal statt blo\337er Dekoration) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Ein zentraler K\366rper verdr\344ngt Luftvolumen und erzeugt zwischen Au\337enwand und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Innenk\366rper einen ringf\366rmigen Kanal. Bei rotationssymmetrischer Betrachtung ist dessen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Fl\344che die Differenz zweier Kreisfl\344chen. Der Verlauf beider Radien bestimmt die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Aufweitung. Ein optisch schlanker K\366rper kann akustisch eine Engstelle erzeugen, wenn) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (sein Radius zu schnell zunimmt.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Turbosounds Mehrtreiber-Patent US4882562A zeigt ein verwandtes Konzept mit einem) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (zentralen K\366rper und einem ringf\366rmigen Abschnitt. Daraus folgt keine eindeutige) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Identifikation jedes historischen, umgangssprachlich Rakete genannten Bauteils. F\374r) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (eine eigene Studie werden Innen- und Au\337enkontur gemeinsam parametrisiert. Engstellen,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Eintrittsrichtungen und der \334bergang am Ende des Innenk\366rpers m\374ssen untersucht werden.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Ein zus\344tzlicher K\366rper direkt hinter einem fertigen Kompressionstreiber kann dessen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (Ausgangslast wesentlich ver\344ndern.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (S_ring\050x\051 = pi [R_a\050x\051^2 - R_i\050x\051^2]; R_a > R_i.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Konstruktionspr\374fung: Querschnitt entlang x ausgeben, nicht nur den maximalen) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Au\337endurchmesser messen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+180 122 m 340 157 l 430 122 l 340 88 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (10 / 30) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US4882562A/en) >> >>
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 38 0 R /Annots [39 0 R] >>
+endobj
+41 0 obj
+<< /Length 2664 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Axtkopf-Phaseplug) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Asymmetrie verlangt mehrere Schnitte) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Ein Axtkopf besitzt in einer Schnittebene eine keil- oder schneidenartige Form. Er kann) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (den Schallfluss in zwei Hauptkan\344le aufteilen. Seine Wirkung h\344ngt von der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (gegen\374berliegenden Wand, der Lage zur Membran und der r\344umlichen Kontur ab. Eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Zeichnung des K\366rpers allein beschreibt daher kein vollst\344ndiges akustisches System.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 611 Tm (Das Gebrauchsmuster CN204425636U belegt diese Formbezeichnung, ist jedoch kein Nachweis) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (einer Turbosound-Urheberschaft. Im Designkatalog ist der Axtkopf ein eigener) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Konzeptentwurf. Er wird \374ber Kanalfl\344chen, Wegl\344ngen und Verrundungen beschrieben.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Besonders zu pr\374fen sind ungleiche Wege seitlicher Membranzonen und die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Feldzusammenf\374hrung hinter dem K\366rper. Eine geometrisch scharfe Schneide ist kein) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (generelles Qualit\344tsmerkmal: mechanische Robustheit und akustische Streuung m\374ssen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (gemeinsam betrachtet werden.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (S_gesamt\050x\051 = S_links\050x\051 + S_rechts\050x\051; Deltal = |l_links - l_rechts|.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Mindestens horizontalen, vertikalen und diagonalen Schnitt pr\374fen. Symmetrie nur dort) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (annehmen, wo sie tats\344chlich vorhanden ist.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+180 122 m 340 157 l 430 122 l 340 88 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (P2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (11 / 30) Tj ET
+endstream
+endobj
+42 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/CN204425636U/en) >> >>
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 41 0 R /Annots [42 0 R] >>
+endobj
+44 0 obj
+<< /Length 2717 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Kompressionskammer) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Ein kleines Volumen mit gro\337er Wirkung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Die Luft vor einer Membran bildet im konzentrierten Modell eine akustische) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Nachgiebigkeit. Eine enge Verbindung besitzt eine akustische Masse. Beide k\366nnen eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Resonanz ausbilden. Das bekannte Helmholtz-Modell beschreibt diese Kombination im) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Bereich, in dem die Abmessungen klein gegen\374ber der Wellenl\344nge sind. Ein abstrahlendes) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Horn ist jedoch keine einfache massenbehaftete \326ffnung mit konstanter Last.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Die Kammerrechnung im Konfigurator ist deshalb ein separater Lernrechner mit frei) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (gew\344hltem Volumen, Halsfl\344che und effektiver L\344nge. Seine Werte werden nicht aus dem) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Treibernamen erfunden. Herstellerangaben wie Driver Displacement Volume bezeichnen den) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (vom gesamten Treiber verdr\344ngten Bauraum, nicht automatisch dessen interne) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Vorderkammer. Dieser h\344ufige Verwechslungsfehler w\374rde Resonanzrechnungen um) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Gr\366\337enordnungen verf\344lschen.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (C_a = V/\050rhoc^2\051; M_a = rhol_eff/S; f_H = 1/\0502pisqrt\050M_a C_a\051\051.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (V in m^3: 1 cm^3 = 10-6 m^3. l_eff enth\344lt Endkorrekturen und ist nicht zwangsl\344ufig die) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (sichtbare Halsl\344nge.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (L1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (L2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (A3) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (12 / 30) Tj ET
+endstream
+endobj
+45 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.lavocespeakers.com/product/dn10-20/) >> >>
+endobj
+46 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://lavocespeakers.com/product/dn20-30tk/) >> >>
+endobj
+47 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://doc.comsol.com/6.4/doc/com.comsol.help.models.aco.helmholtz_resonator_solvers/helmholtz_resonator_solvers.html) >> >>
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 44 0 R /Annots [45 0 R 46 0 R 47 0 R] >>
+endobj
+49 0 obj
+<< /Length 2663 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Kompressionsverh\344ltnis und) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 716 Tm (Str\366mung) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Fl\344che ist nur ein Teil der Belastung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Das geometrische Kompressionsverh\344ltnis CR wird als wirksame Membranfl\344che geteilt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (durch die Summe der offenen Kanalfl\344chen definiert. Daf\374r ben\366tigt man die tats\344chlich) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (akustisch wirksame Fl\344che. Der Schwingspulendurchmesser liefert diese Fl\344che nicht. F\374r) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (die gew\344hlten Kompressionstreiber liegen hier keine ausreichend belegten internen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 591 Tm (Kanalfl\344chen vor; daher wird kein produktspezifisches CR ausgewiesen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Bei gegebenem Volumenstrom w\344chst die mittlere Kanalgeschwindigkeit mit abnehmender) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Fl\344che. Druck- und Geschwindigkeitsmaxima k\366nnen bei Resonanzen an unterschiedlichen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Orten liegen. Ein harmloser Mittelwert schlie\337t lokale \334berlastung nicht aus. F\374r eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (eigene Konus-Vorkammer m\374ssen mindestens wirksame Membranfl\344che, Hub, Kanalfl\344chen und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (Bandbegrenzung bekannt sein. Eine frei gew\344hlte Verringerung der Halsfl\344che ist kein) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 491 Tm (zuverl\344ssiger Weg zu h\366herem Nutzpegel.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (CR = S_d / SummeS_Kanal; v_mittel = U / SummeS_Kanal.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Keine CR-Ausgabe aus dem Schwingspulendurchmesser ableiten. Fehlende innere Geometrie) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (bleibt als Datenl\374cke markiert.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (13 / 30) Tj ET
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 49 0 R /Annots [] >>
+endobj
+51 0 obj
+<< /Length 2605 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Laufwegausgleich) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Gleiche L\344nge ist notwendig, aber nicht hinreichend) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Treffen zwei gleich starke Teilwellen mit unterschiedlicher Phase aufeinander, h\344ngt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (die Summe von ihrer Phasendifferenz ab. Bei 180\260 k\366nnen sie sich idealisiert) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (vollst\344ndig ausl\366schen. F\374r einen Phaseplug werden deshalb die Wege verschiedener) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Membranzonen bis zu einer gemeinsamen Bezugsfl\344che untersucht. Die Mittellinie ist) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (daf\374r nur eine erste geometrische N\344herung.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Gleiche geometrische Wege garantieren noch keine identischen \334bertragungsfunktionen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Unterschiedliche Querschnittsverl\344ufe, Reflexionen oder Moden k\366nnen zus\344tzliche) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Phasenlagen erzeugen. Bei einem Mehrtreiber-Manifold kommen Toleranzen der Treiber und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (elektrische Filter hinzu. Das Projekt verwendet ein 45\260-Budget am oberen Bandende als) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (transparenten Pr\374fwert. F\374r den sp\344teren Prototyp m\374ssen Amplitude und Phase der Kan\344le) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (m\366glichst getrennt gemessen oder r\344umlich simuliert werden.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (|p_sum| = 2 |p_0|  *  |cos\050Deltaphi/2\051| bei zwei gleich starken Teilwellen.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Bei f_hi = 20 kHz liegt das 45\260-Wegbudget bei rund 2,14 mm. Fertigungstoleranz und) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (akustischer Weg sind getrennt zu bilanzieren.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (14 / 30) Tj ET
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 51 0 R /Annots [] >>
+endobj
+53 0 obj
+<< /Length 2701 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Multicell) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Viele Zellen bilden eine gemeinsame Apertur) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Ein klassisches Multicell-Horn besteht aus mehreren kleinen Hornzellen mit jeweils) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (eigener Achse. Eine gemeinsame Quelle kann \374ber einen Verteiler mehrere Zellen speisen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Die Richtwirkung entsteht aus der \334berlagerung aller Zellfelder, deren Ausrichtung,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Abstand, Phase und Einzelcharakteristik. Die Anzahl der Zellen allein bestimmt weder) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Strahlbreite noch Klangqualit\344t.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Im Katalog wird eine 3 \327 2-Anordnung als leicht nachvollziehbare Studie dargestellt.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Die Au\337enh\374lle stammt aus der Aperturvorbemessung; die Unterteilung ist zun\344chst) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (geometrisch. Die Winkel werden nicht einfach durch drei beziehungsweise zwei geteilt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (und als bewiesene Zellabstrahlung ausgegeben. Trennw\344nde beanspruchen Fl\344che, und jede) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Zellm\374ndung streut Schall. Deshalb muss die sp\344tere Simulation sowohl die Einzelzelle) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (als auch das vollst\344ndige Gebilde einschlie\337lich Verteiler enthalten.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (p\050theta,phi,f\051 = Summe p_n\050theta,phi,f\051  *  exp\050jpsi_n\051.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Zellzahl, Quellenzahl und Treiberzahl getrennt dokumentieren. Im lokalen Rechner) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (bedeutet Zellenzahl keine automatische Mehrtreiberbest\374ckung.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+250 70 m 250 175 l S 370 70 m 370 175 l S 220 122 m 510 122 l S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (P1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (15 / 30) Tj ET
+endstream
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US20210110808A1/en) >> >>
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 53 0 R /Annots [54 0 R] >>
+endobj
+56 0 obj
+<< /Length 2754 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Polycell und Polyhorn) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Arbeitsbegriff und Herstellerkonzept unterscheiden) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Polyhorn ist ein historisches Turbosound-Konzept. Das TA-880-Handbuch erl\344utert die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Anpassung der Wellenfront an Array-Geometrien; als Herstellerdokument beschreibt es ein) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (konkretes System, keine universelle Bauformel. Eine sp\344tere Patentanmeldung von GP) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Acoustics nennt Polyhorn im Hintergrund im Zusammenhang mit einzelnen Zellen und einer) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (toroidalen Welle. Diese sp\344tere Quelle stammt von einem anderen Hersteller.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Polycell wird in diesem Projekt als Arbeitsbegriff f\374r einen mehrkanaligen Entwurf mit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (gezielt entworfener Ausgangswellenfront verwendet. Daraus wird weder eine offizielle) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Turbosound-Produktkategorie noch eine bestimmte Originalkontur abgeleitet. Der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Unterschied zum einfachen Multicell-Ansatz liegt hier im Entwicklungsziel:) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (kontrollierte Phase \374ber der gemeinsamen M\374ndung. Ohne Feldsimulation ist diese) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Zielsetzung noch kein erreichtes Ergebnis.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Ziel: vorgegebene Phase Phi\050x,y,f\051 \374ber der gemeinsamen M\374ndung.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Originale CAD-Querschnitte und Kammerma\337e sind nicht verifiziert. Der Katalog zeigt) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (deshalb Konzeptstudien mit expliziter Kennzeichnung.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+250 70 m 250 175 l S 370 70 m 370 175 l S 220 122 m 510 122 l S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (P1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (16 / 30) Tj ET
+endstream
+endobj
+57 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.fullcompass.com/common/files/17437-TA880UserManual.pdf) >> >>
+endobj
+58 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US20210110808A1/en) >> >>
+endobj
+59 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 56 0 R /Annots [57 0 R 58 0 R] >>
+endobj
+60 0 obj
+<< /Length 2724 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Mehrtreiber-Manifolds) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Mehr Quellen ben\366tigen mehr Kontrolle) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Ein Manifold f\374hrt mehrere Treiberausg\344nge zusammen. Im Turbosound-Patent US4882562A) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (werden Kan\344le und ein zentraler K\366rper kombiniert, um die Schallf\374hrung im gemeinsamen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Bereich zu beeinflussen. Die patentierte Anordnung ist ein konkretes historisches) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Beispiel; ihre Leistungsversprechen werden hier nicht als Messergebnis eines Eigenbaus) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (\374bernommen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (F\374r die Entwicklung sind identische Treibermodelle, Polarit\344t, Verz\366gerung und die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (elektrische Last relevant. Zwei nominell gleiche 8-Ohm-Treiber ergeben parallel) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (nominell 4 Ohm, in Serie 16 Ohm. Reale Impedanz ist frequenzabh\344ngig. Auch bei) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (korrekter elektrischer Beschaltung kann akustische R\374ckwirkung zwischen den Quellen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (entstehen. Der Konfigurator w\344hlt deshalb zun\344chst einen Treiber pro Horn. Die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Zellenoption ver\344ndert lediglich die schematische Unterteilung; sie erh\366ht nicht die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (zul\344ssige Leistung.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Z_parallel = Z/N_T; Z_Serie = N_T  *  Z nur f\374r identische Impedanzen.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Keine automatische Addition von SPL- oder Wattwerten ohne gemeinsame Quellen- und) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Lastbedingungen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+90 175 m 220 140 l S 90 70 m 220 105 l S 90 122 m 510 122 l S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (17 / 30) Tj ET
+endstream
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US4882562A/en) >> >>
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 60 0 R /Annots [61 0 R] >>
+endobj
+63 0 obj
+<< /Length 2536 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Abst\344nde, Moden und Zellgrenzen) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Das obere Bandende setzt enge Ma\337st\344be) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Die Regel d <= lambda/2 ist ein konservativer Abstandscheck f\374r koh\344rente, r\344umlich) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (abgetastete Quellen; sie ist kein allgemeines Verbot breiter Zellm\374ndungen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Gitterkeulen h\344ngen von Frequenz, Blickrichtung, Abstand und Einzelzellcharakteristik) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (ab. Bei geformten Wellenfronten oder zusammenh\344ngenden M\374ndungen muss das reale Feld) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (untersucht werden.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Als zweiter Warnwert kann die erste Querform eines idealen starren Rechteckkanals) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (abgesch\344tzt werden. Bei gr\366\337erer Kanalbreite sinkt deren Cut-on-Frequenz. Ein) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (aufgeweiteter, offener Hornkanal hat jedoch keine \374ber seine gesamte L\344nge konstante) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Modenstruktur. Der Konfigurator zeigt den Wert anhand der gr\366\337ten idealisierten) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Zellabmessung nur als Pr\374fhinweis. Er erkl\344rt keine Konstruktion f\374r unbrauchbar und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (behauptet keine realen Resonanzfrequenzen.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (d_check = c/\0502f_hi\051; f_quer ~ c/\0502a\051 f\374r einen idealen Rechteckkanal.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Bei 18 kHz ist lambda/2 etwa 9,53 mm. Das zeigt, warum einfache Zellenraster im Hochton) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (r\344umliche Analyse brauchen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (18 / 30) Tj ET
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 63 0 R /Annots [] >>
+endobj
+65 0 obj
+<< /Length 2847 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Turbosound: Quellen richtig lesen) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Historische Funktion ist keine Fertigungszeichnung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (F\374r den historischen \334berblick werden Herstellerhandbuch und Patente getrennt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (ausgewertet. Das TA-880-Handbuch nennt f\374r sein System 25\260 horizontale Abstrahlung und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (einen entsprechenden Winkel zwischen benachbarten Geh\344usen. Dieser Wert gilt f\374r die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (beschriebene Systemanordnung; er ist kein allgemeiner Winkel f\374r alle Turbosound-H\366rner) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (oder f\374r einen selbst gezeichneten Polycell-Entwurf.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (US4882562A dokumentiert ein Mehrtreiber-Manifold mit Innenk\366rper. GB2404520A betrifft) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (einen Phaseplug mit thermischer Zusatzfunktion. Die blo\337e \304hnlichkeit eines Bauteils zu) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (einer Rakete oder Axt gen\374gt nicht zur Zuordnung zu einer Patentzeichnung. F\374r den) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Nachbau eines konkreten historischen Ger\344ts w\344ren Modellbezeichnung, Revision und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (vermessene Querschnitte erforderlich. Das Quellenregister h\344lt fehlenden) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Volltextzugriff und nicht verifizierte Ma\337e fest.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Belegkette: Modell + Revision + Zeichnung + Ma\337bezug + akustischer Nachweis.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (F\374r den vorliegenden Katalog wird keine Originalteil-Kompatibilit\344t behauptet.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Patentstatus ist keine technische Qualit\344tsbewertung.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (T2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (T3) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 163 35 Tm (T4) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (19 / 30) Tj ET
+endstream
+endobj
+66 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.fullcompass.com/common/files/17437-TA880UserManual.pdf) >> >>
+endobj
+67 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US4882562A/en) >> >>
+endobj
+68 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/GB2404520A/en) >> >>
+endobj
+69 0 obj
+<< /Type /Annot /Subtype /Link /Rect [163 30 188 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/EP1315398B1/en) >> >>
+endobj
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 65 0 R /Annots [66 0 R 67 0 R 68 0 R 69 0 R] >>
+endobj
+71 0 obj
+<< /Length 2644 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (LaVoce: zwei sinnvolle) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 716 Tm (Gr\366\337enklassen) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (DN10.20-16 und DN20.30TK) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Der DN10.20-16 besitzt einen 25,4-mm-Austritt und nominal 16 Ohm. LaVoce nennt einen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Frequenzbereich von 1 bis 18 kHz sowie eine empfohlene Trennung bei 1,2 kHz. Der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (DN20.30TK besitzt einen 50-mm-Austritt und nominal 8 Ohm; seine genannten Werte sind) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (0,5 bis 20 kHz und 800 Hz als empfohlene Trennung. Diese Daten machen beide zu) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 591 Tm (unterschiedlichen Startpunkten f\374r einen Hochton- beziehungsweise gr\366\337eren Mittel-) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 576 Tm (Hochton-Waveguide.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Die gemeldeten 70 beziehungsweise 110 W AES sind von 140 beziehungsweise 220 W Program) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (zu unterscheiden. Der Konfigurator pr\374ft Band und Projektgrenze, aber keine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Pegelfreigabe. Die 108-dB-Angaben beider Treiber sind ohne identische Messbedingungen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (kein vollst\344ndiger Vergleich. Auch identische Nenndurchmesser reichen f\374r eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 491 Tm (mechanische Montageentscheidung nicht aus.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Halsfl\344che DN10.20-16 ~ 507 mm^2; DN20.30TK ~ 1963 mm^2.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Die Endung -16 geh\366rt zur hier recherchierten 16-Ohm-Variante. Keine ungepr\374fte) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (\334bertragung auf andere Varianten.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (L1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (L2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (20 / 30) Tj ET
+endstream
+endobj
+72 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.lavocespeakers.com/product/dn10-20/) >> >>
+endobj
+73 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://lavocespeakers.com/product/dn20-30tk/) >> >>
+endobj
+74 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 71 0 R /Annots [72 0 R 73 0 R] >>
+endobj
+75 0 obj
+<< /Length 2713 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (JBL: Referenztreiber korrekt) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 716 Tm (einordnen) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (2426H und 2446H) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Der JBL 2426H ist ein 8-Ohm-Treiber mit 25-mm-Austritt. Das offizielle Datenblatt nennt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (500 Hz bis 20 kHz als Frequenzbereich, empfiehlt jedoch eine Trennung ab 800 Hz mit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (mindestens 12 dB/Oktave. Ein ausgewiesener Frequenzbereich ist somit nicht gleich der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (erlaubten Vollleistungstrennung. Die Empfindlichkeit h\344ngt vom Horn ab: Das Datenblatt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 591 Tm (nennt unterschiedliche Werte f\374r 2344A und 2370A.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (F\374r den 2446H sind 49 mm Austritt, 8 Ohm und ein 100-mm-Schwingspulendurchmesser) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (belegt. Die indexierten offiziellen Daten nennen 100 W continuous program oberhalb 500) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Hz und 150 W oberhalb 1 kHz. Der direkte PDF-Abruf war gesperrt. Der Rechner setzt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (daher 800 Hz als eigene konservative Projekt-Untergrenze und kennzeichnet dies.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (J-Varianten sind keine automatisch identischen elektrischen Ersatzteile.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (JBL-Leistungsart: continuous program; in der Datenbank steht AES ausdr\374cklich auf) Tj ET
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 285 Tm (unbekannt.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Historische Treiber vor Einsatz auf Originaldiaphragma, Zustand, Dichtheit und passende) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (mechanische Schnittstelle pr\374fen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (J1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (J2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (J3) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (21 / 30) Tj ET
+endstream
+endobj
+76 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://adn.harmanpro.com/product_documents/documents/7602_1574029357/2426_original.pdf) >> >>
+endobj
+77 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://jblpro.com/en/product_documents/2446-pdf) >> >>
+endobj
+78 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://jblpro.com/en-US/products/2446h-j) >> >>
+endobj
+79 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 75 0 R /Annots [76 0 R 77 0 R 78 0 R] >>
+endobj
+80 0 obj
+<< /Length 2815 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Treiberwahl und mechanische) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 716 Tm (Schnittstelle) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Eine Vorauswahl braucht ehrliche Statusmeldungen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Der Rechner verwirft Kandidaten, deren Band nicht bis zur gew\374nschten oberen Frequenz) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (reicht oder deren Mindestgrenze \374ber der gew\374nschten unteren Bandgrenze liegt. Bei) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (LaVoce und 2426H werden die recherchierten Trennempfehlungen verwendet; beim 2446H gilt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (die gekennzeichnete Projektgrenze. Eine positive Vorauswahl hei\337t nur: Die erfassten) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 591 Tm (Banddaten widersprechen der Eingabe nicht.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Der Hals wird mit dem tats\344chlichen Millimeterwert der Datenbank gerechnet. Die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (nominelle Zollklasse kann gerundet sein: 49 mm sind nicht 50,8 mm. Vor der Fertigung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (werden Lochkreis, Gewinde, Dichtung, Austrittsebene und freier Querschnitt aus der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (aktuellen technischen Zeichnung \374bernommen. Ein Adapter soll keine Stufe, Tasche oder) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (Leckstelle erzeugen. Der vorliegende Katalog enth\344lt bewusst keine erfundenen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 491 Tm (Flanschbohrungen.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Status = Bandpr\374fung + Trennpr\374fung; Pegelpr\374fung bleibt offen.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Bei ungeeignetem Treiber bleiben die Zahlen sichtbar, aber ein deutlicher Hinweis) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (verhindert die Darstellung als Empfehlung.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (L1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (L2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (J1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 163 35 Tm (J2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (22 / 30) Tj ET
+endstream
+endobj
+81 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.lavocespeakers.com/product/dn10-20/) >> >>
+endobj
+82 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://lavocespeakers.com/product/dn20-30tk/) >> >>
+endobj
+83 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://adn.harmanpro.com/product_documents/documents/7602_1574029357/2426_original.pdf) >> >>
+endobj
+84 0 obj
+<< /Type /Annot /Subtype /Link /Rect [163 30 188 43] /Border [0 0 0] /A << /S /URI /URI (https://jblpro.com/en/product_documents/2446-pdf) >> >>
+endobj
+85 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 80 0 R /Annots [81 0 R 82 0 R 83 0 R 84 0 R] >>
+endobj
+86 0 obj
+<< /Length 2685 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Designfamilien im Vergleich) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Vom einfachen Referenzhorn zur komplexen Kanalf\374hrung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Der Katalog enth\344lt sechs Familien: geradliniger Einzel-Waveguide als Referenz,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Raketen-Ringkanal, Axtkopf-Zweikanal, Multicell 3 \327 2, Polycell-Konzept und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Mehrtreiber-Manifold. Nur die erste Familie besitzt im Browser eine direkt berechnete) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Konturh\374lle. Bei den anderen Familien sind dieselben Au\337enma\337e lediglich eine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Bauraumreferenz; ihre inneren Konturen m\374ssen zus\344tzlich entwickelt werden.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (F\374r jeden Entwurf stehen Zweck, Parameter, Treibervorschlag, Risiken und n\344chster) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Nachweis. Die gleichen Eingaben k\366nnen bewusst mehrere Familien erzeugen, denn) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Abstrahlung und Band sind keine eindeutige Konstruktionsvorschrift. Als) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Entwicklungsstrategie dient ein gut messbarer Einzel-Waveguide als Referenz.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Zus\344tzliche K\366rper und Zellen sollen einen konkret gemessenen Vorteil liefern, etwa) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (bessere Wellenfrontanpassung oder geringere Bautiefe, und nicht nur komplexer aussehen.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Vergleichsgr\366\337en: Strahlbreite\050f\051, Richtma\337\050f\051, Impedanz\050f\051, Verzerrung\050P\051,) Tj ET
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 285 Tm (Bauraum.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Katalogstatus aller Familien: E  *  unvalidierter Vorentwurf. Kein Entwurf besitzt hier) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (eine Herstellerfreigabe.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (23 / 30) Tj ET
+endstream
+endobj
+87 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 86 0 R /Annots [] >>
+endobj
+88 0 obj
+<< /Length 2479 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Rechenbeispiel 90\260 \327 40\260) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (1,2 bis 18 kHz mit LaVoce DN10.20-16) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Bei c = 343 m/s und f_lo = 1200 Hz betr\344gt die Wellenl\344nge 285,8 mm. Die gleichm\344\337ig) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (belegte Apertur liefert horizontal etwa 243,8 mm und vertikal etwa 504,0 mm. Der enge) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (vertikale Zielwinkel f\374hrt zu der gr\366\337eren vertikalen \326ffnung. Mit 25,4 mm Hals ergibt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (die geradlinige H\374llrechnung eine gemeinsame L\344nge von etwa 657 mm.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 611 Tm (Der gro\337e Wert ist ein wichtiges Ergebnis: Vollst\344ndige Richtkontrolle bis 1,2 kHz bei) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (40\260 vertikal ist im verwendeten Aperturmodell bauraumintensiv. Der Rechner macht diese) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Konsequenz sichtbar. Ein kompaktes Serienhorn kann andere Wellenfronten und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (frequenzabh\344ngige Abstrahlung nutzen. Soll das Geh\344use kleiner werden, muss die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Richtkontrolle erst bei h\366herer Frequenz einsetzen, der Winkel erweitert oder die Form) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (r\344umlich optimiert werden.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Deltal_45\260 bei 18 kHz ~ 2,38 mm; lambda/2 bei 18 kHz ~ 9,53 mm.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Die Zahlen sind gerundete Modellwerte. Der automatisierte Test vergleicht den Rechenkern) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (mit diesen Gr\366\337enordnungen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (L1) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (24 / 30) Tj ET
+endstream
+endobj
+89 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.lavocespeakers.com/product/dn10-20/) >> >>
+endobj
+90 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 88 0 R /Annots [89 0 R] >>
+endobj
+91 0 obj
+<< /Length 2611 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Rechenbeispiel 60\260 \327 40\260) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (800 Hz bis 16 kHz als gr\366\337ere Studie) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Bei 800 Hz betr\344gt die Wellenl\344nge 428,8 mm. Das Aperturmodell ergibt f\374r 60\260) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (horizontal rund 517 mm und f\374r 40\260 vertikal rund 756 mm. Mit einem LaVoce DN20.30TK und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (50-mm-Hals f\374hrt die steilere Anforderung in vertikaler Richtung zu ungef\344hr 970 mm) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (gemeinsamer L\344nge. Das Modell verlangt damit eine gro\337e Richtapertur am unteren) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Bandende.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (F\374r einen kleineren Entwurf kann eine zweite Rechnung bei 1600 Hz als Beginn der) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Zielrichtwirkung dienen. Die Aperturma\337e halbieren sich n\344herungsweise, obwohl das) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (akustische Nutzband eventuell weiter bei 800 Hz beginnt. Dann m\374ssen Nutzband und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Richtkontrollband in der Spezifikation getrennt stehen. Der aktuelle Rechner koppelt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (beide bewusst an f_lo; eine solche Entkopplung ist eine dokumentierte sp\344tere) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Erweiterung.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Bei Verdopplung von f_lo halbiert sich D im Aperturmodell; der feste Hals skaliert) Tj ET
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 285 Tm (nicht mit.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Treiberwahl 800 Hz: Banddaten sind nur ein Eingang. Last, Filter, gew\374nschter Pegel und) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (Verzerrung m\374ssen folgen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (L2) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (25 / 30) Tj ET
+endstream
+endobj
+92 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://lavocespeakers.com/product/dn20-30tk/) >> >>
+endobj
+93 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 91 0 R /Annots [92 0 R] >>
+endobj
+94 0 obj
+<< /Length 2868 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Simulation als \374berpr\374fbarer) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 716 Tm (Ablauf) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (GitHub liefert Werkzeuge, keine automatische Wahrheit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Das gepr\374fte GitHub-Projekt Waveguide_PSO verbindet ATH-Geometrieerzeugung mit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (ABEC/AKABAK und einer Partikelschwarmoptimierung. Sein README beschreibt mehrere) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Winkelebenen und Zielgr\366\337en wie Gl\344tte und Winkelfolge. Die ben\366tigten externen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (Programme sowie eine empfindliche GUI-Automation begrenzen die direkte) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 591 Tm (Reproduzierbarkeit. Hier wurde kein fremder Code \374bernommen und kein solcher) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 576 Tm (Optimierungslauf ausgef\374hrt.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Als Alternative kann ein eigenes Modell mit Gmsh vernetzt und mit einer BEM-) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Implementierung wie Bempp untersucht werden. Gmsh erzeugt Netze, l\366st aber allein keine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (akustische Abstrahlung. Der Ablauf muss Quellfl\344che, Randbedingungen, Einheiten,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (Frequenzraster, Winkelauswertung und Normierung enthalten. Ergebnisse werden mit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 491 Tm (Dateihash und Werkzeugversion gespeichert, damit eine sp\344tere Revision denselben Stand) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 476 Tm (nachvollziehen kann.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Startwert Netzweite h <= lambda_min/6; danach Netzkonvergenz pr\374fen.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Mindestens zwei verfeinerte Netze vergleichen. Der Wert lambda/6 ist eine Startregel und) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (kein allgemeiner Genauigkeitsnachweis.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (G1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (G2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (G3) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (26 / 30) Tj ET
+endstream
+endobj
+95 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://github.com/rafaelst00/Waveguide_PSO/tree/baefd510603ce75612bbed62191f5786c170c6b1) >> >>
+endobj
+96 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://github.com/bempp/bempp-cl) >> >>
+endobj
+97 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://github.com/gmsh-project/gmsh) >> >>
+endobj
+98 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 94 0 R /Annots [95 0 R 96 0 R 97 0 R] >>
+endobj
+99 0 obj
+<< /Length 2549 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Messen und beurteilen) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Ein Achsfrequenzgang reicht nicht) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (F\374r die Bewertung wird das Horn mit demselben Treiber und derselben Signalverarbeitung) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (auf einer ausreichend freien Messstrecke untersucht. Winkelraster, Abstand und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (zeitliche Fensterung werden dokumentiert. Tiefe Frequenzen ben\366tigen lange Fenster; die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (untere verl\344ssliche Messfrequenz ist daher an Umgebung und Fensterl\344nge gebunden.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Horizontal, vertikal und diagonal werden frequenzabh\344ngige Kurven aufgenommen.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 596 Tm (Die Strahlbreite wird bei jeder Frequenz relativ zum Achspegel bestimmt. Eine reine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Normierung kann starke absolute Pegelverluste verbergen; deshalb geh\366ren absolute) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Referenz und normierte Darstellung zusammen. Erg\344nzend werden Impedanz, Verzerrung bei) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (mehreren Pegeln und ein Zeitverhalten erfasst. Die Freifeld-Fernfeldabsch\344tzung mit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (gr\366\337ter Apertur D hilft bei der Wahl des Abstands, ist bei realen H\366rnern aber keine) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (exakte Grenzlinie.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Fernfeld-Orientierung: r ? 2D^2/lambda; Strahlbreite an -6 dB relativ zur Achse.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Projekt-Abnahmekriterium vor dem Bau festlegen, etwa Zielwinkel \26110\260 \374ber einem) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (ausdr\374cklich benannten Teilband.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (27 / 30) Tj ET
+endstream
+endobj
+100 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 99 0 R /Annots [] >>
+endobj
+101 0 obj
+<< /Length 2677 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Fertigung und Revision) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (CAD, Druck und Messung m\374ssen denselben Stand tragen) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Vor dem ersten Druck werden alle Querschnitte auf monotone und unbeabsichtigt verengte) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Bereiche gepr\374ft. Ein glatter Fl\344chenverlauf allein gen\374gt nicht: Die Tangenten an) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (\334berg\344ngen und die tats\344chliche Mindestspaltweite sind ebenfalls relevant. Geteilte) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Druckteile ben\366tigen reproduzierbare Zentrierung und dichte Fugen. Die Wandst\344rke folgt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Werkstoff, Gr\366\337e und mechanischer Beanspruchung und wird nicht akustisch aus dem) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (Zielwinkel berechnet.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (F\374r jede Revision werden Eingabe-JSON, CAD-Datei, Netz, Simulationsbericht und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Messdaten gemeinsam abgelegt. Eine \304nderung des Halsadapters kann eine neue akustische) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Revision sein, auch wenn das Mundma\337 gleich bleibt. Bei einer Konzeptstudie mit) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (Innenk\366rper wird zus\344tzlich dessen Position und Befestigung dokumentiert. Tragende oder) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (geflogene Beschallungssysteme verlangen eine gesonderte mechanische Auslegung; diese) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (Brosch\374re liefert daf\374r keine Bemessung.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Revisionssatz: Geometrie + Treiber/Diaphragma + Filter + Messaufbau + Datum.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Erst ein gemessener und dokumentierter Prototyp kann als validierte Designvariante in) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (den Katalog wechseln.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (28 / 30) Tj ET
+endstream
+endobj
+102 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 101 0 R /Annots [] >>
+endobj
+103 0 obj
+<< /Length 2637 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Konfigurator und Datenpflege) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (So wird aus einem Rechner ein brauchbares Arbeitsmittel) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Die Browseranwendung l\344uft ohne Installation durch \326ffnen von configurator/index.html.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (Sie ben\366tigt keinen externen Dienst. Eingaben sind volle horizontale und vertikale) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (Winkel sowie untere und obere Bandgrenze; hinzu kommen Treiber, Designfamilie und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Zellraster. Ergebnisse zeigen Halsfl\344che, Mundma\337e, H\374lll\344nge, tats\344chliche Wandwinkel,) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (Wegbudget und Pr\374fhinweise. Ein JSON-Export h\344lt die getroffenen Annahmen und) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (Quellenkennungen fest.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Ung\374ltige Zahlen und umgekehrte Bandgrenzen werden abgefangen. Ein Treiber au\337erhalb) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (der hinterlegten Grenzen erh\344lt keine positive Bandvorauswahl. Der Kammerrechner bleibt) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (getrennt von der Treiberauswahl, weil interne Volumina unbekannt sind. Die Quelldaten) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (stehen in data/drivers.json; ein Generatorskript bettet sie beim Erstellen in die) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Anwendung ein. Damit ist nachvollziehbar, welcher Datenstand zu einem Export geh\366rt.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Datenstand: 12.11.2026; Rechenmodell: Apertur -6 dB + geradlinige H\374lle, Version) Tj ET
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 285 Tm (1.0.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Testkommando: node --test tests/core.test.mjs. PDF und HTML aus denselben Seiteninhalten) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (erzeugen.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (29 / 30) Tj ET
+endstream
+endobj
+104 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 103 0 R /Annots [] >>
+endobj
+105 0 obj
+<< /Length 3799 >>
+stream
+0.06 0.16 0.18 rg 0 780 595 62 re f
+BT /F2 11 Tf 0.65 0.9 0.79 rg 1 0 0 1 50 807 Tm (SPEAKER / ENTWICKLUNGSATLAS) Tj ET
+BT /F2 25 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 746 Tm (Quellenkarte und offene Aufgaben) Tj ET
+BT /F1 12 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 711 Tm (Beleglage ist Teil des Designs) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 681 Tm (Die vollst\344ndigen Quellen mit direkten Links und Zugriffshinweisen stehen in) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 666 Tm (docs/quellen.md und data/sources.json. Herstellerdaten werden als solche erfasst;) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 651 Tm (eigene Herleitungen und Projektannahmen bleiben getrennt. Relevante Grundlagen sind) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 636 Tm (Webster f\374r das 1D-Modell, Geddes f\374r r\344umliche Waveguide-Theorie und die offizielle) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 621 Tm (COMSOL-Modellbeschreibung f\374r Kammer und Hals. Turbosound-Handbuch und Patente liefern) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 606 Tm (den historischen Zusammenhang.) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 581 Tm (Offen bleiben genaue originale Raketen- und Axtkopf-Ma\337e, vollst\344ndige Polyhorn-) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 566 Tm (Konturen, interne Vorderkammern der ausgew\344hlten Treiber und eine akustische) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 551 Tm (Validierung der eigenen Kataloggeometrien. Diese L\374cken werden nicht durch Sch\344tzwerte) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 536 Tm (im Herstellerdatensatz geschlossen. Der n\344chste belastbare Schritt ist ein einzelner) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 521 Tm (Referenzprototyp mit dokumentiertem Treiber, gemessenen Polaren und einer daran) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 506 Tm (abgeglichenen r\344umlichen Simulation. Danach lassen sich komplexere Familien anhand) Tj ET
+BT /F1 10.5 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 491 Tm (identischer Kriterien vergleichen.) Tj ET
+0.9 0.96 0.92 rg 45 249 505 70 re f
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 300 Tm (Prim\344rdaten -> offen gerechnete Annahmen -> reproduzierbare Dateien -> gepr\374fter) Tj ET
+BT /F2 11 Tf 0.06 0.16 0.18 rg 1 0 0 1 57 285 Tm (Prototyp.) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 228 Tm (Hauptquellen: T1\226T3, P1\226P2, L1\226L2, J1\226J3, A1\226A3 und G1\226G3. Keine eigenen Messdaten) Tj ET
+BT /F1 10 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 214 Tm (vorhanden.) Tj ET
+0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S
+BT /F1 8 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 52 Tm (Funktionsskizze: schematisch, keine Fertigungskontur.) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 50 35 Tm (Quellen:) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 85 35 Tm (T1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 111 35 Tm (T2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 137 35 Tm (T3) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 163 35 Tm (P1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 189 35 Tm (P2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 215 35 Tm (L1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 241 35 Tm (L2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 267 35 Tm (J1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 293 35 Tm (J2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 319 35 Tm (J3) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 345 35 Tm (A1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 371 35 Tm (A2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 397 35 Tm (A3) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 423 35 Tm (G1) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 449 35 Tm (G2) Tj ET
+BT /F1 7 Tf 0.06 0.16 0.18 rg 1 0 0 1 475 35 Tm (G3) Tj ET
+BT /F1 9 Tf 0.06 0.16 0.18 rg 1 0 0 1 450 20 Tm (30 / 30) Tj ET
+endstream
+endobj
+106 0 obj
+<< /Type /Annot /Subtype /Link /Rect [85 30 110 43] /Border [0 0 0] /A << /S /URI /URI (https://www.fullcompass.com/common/files/17437-TA880UserManual.pdf) >> >>
+endobj
+107 0 obj
+<< /Type /Annot /Subtype /Link /Rect [111 30 136 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US4882562A/en) >> >>
+endobj
+108 0 obj
+<< /Type /Annot /Subtype /Link /Rect [137 30 162 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/GB2404520A/en) >> >>
+endobj
+109 0 obj
+<< /Type /Annot /Subtype /Link /Rect [163 30 188 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/US20210110808A1/en) >> >>
+endobj
+110 0 obj
+<< /Type /Annot /Subtype /Link /Rect [189 30 214 43] /Border [0 0 0] /A << /S /URI /URI (https://patents.google.com/patent/CN204425636U/en) >> >>
+endobj
+111 0 obj
+<< /Type /Annot /Subtype /Link /Rect [215 30 240 43] /Border [0 0 0] /A << /S /URI /URI (https://www.lavocespeakers.com/product/dn10-20/) >> >>
+endobj
+112 0 obj
+<< /Type /Annot /Subtype /Link /Rect [241 30 266 43] /Border [0 0 0] /A << /S /URI /URI (https://lavocespeakers.com/product/dn20-30tk/) >> >>
+endobj
+113 0 obj
+<< /Type /Annot /Subtype /Link /Rect [267 30 292 43] /Border [0 0 0] /A << /S /URI /URI (https://adn.harmanpro.com/product_documents/documents/7602_1574029357/2426_original.pdf) >> >>
+endobj
+114 0 obj
+<< /Type /Annot /Subtype /Link /Rect [293 30 318 43] /Border [0 0 0] /A << /S /URI /URI (https://jblpro.com/en/product_documents/2446-pdf) >> >>
+endobj
+115 0 obj
+<< /Type /Annot /Subtype /Link /Rect [319 30 344 43] /Border [0 0 0] /A << /S /URI /URI (https://jblpro.com/en-US/products/2446h-j) >> >>
+endobj
+116 0 obj
+<< /Type /Annot /Subtype /Link /Rect [345 30 370 43] /Border [0 0 0] /A << /S /URI /URI (https://pmc.ncbi.nlm.nih.gov/articles/PMC1091593/) >> >>
+endobj
+117 0 obj
+<< /Type /Annot /Subtype /Link /Rect [371 30 396 43] /Border [0 0 0] /A << /S /URI /URI (https://aes.org/publications/elibrary/elibrary-page/?id=6078) >> >>
+endobj
+118 0 obj
+<< /Type /Annot /Subtype /Link /Rect [397 30 422 43] /Border [0 0 0] /A << /S /URI /URI (https://doc.comsol.com/6.4/doc/com.comsol.help.models.aco.helmholtz_resonator_solvers/helmholtz_resonator_solvers.html) >> >>
+endobj
+119 0 obj
+<< /Type /Annot /Subtype /Link /Rect [423 30 448 43] /Border [0 0 0] /A << /S /URI /URI (https://github.com/rafaelst00/Waveguide_PSO/tree/baefd510603ce75612bbed62191f5786c170c6b1) >> >>
+endobj
+120 0 obj
+<< /Type /Annot /Subtype /Link /Rect [449 30 474 43] /Border [0 0 0] /A << /S /URI /URI (https://github.com/bempp/bempp-cl) >> >>
+endobj
+121 0 obj
+<< /Type /Annot /Subtype /Link /Rect [475 30 500 43] /Border [0 0 0] /A << /S /URI /URI (https://github.com/gmsh-project/gmsh) >> >>
+endobj
+122 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 105 0 R /Annots [106 0 R 107 0 R 108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 114 0 R 115 0 R 116 0 R 117 0 R 118 0 R 119 0 R 120 0 R 121 0 R] >>
+endobj
+xref
+0 123
+0000000000 65535 f 
+0000000025 00000 n 
+0000000074 00000 n 
+0000000340 00000 n 
+0000000437 00000 n 
+0000000539 00000 n 
+0000003495 00000 n 
+0000003672 00000 n 
+0000003831 00000 n 
+0000003988 00000 n 
+0000004187 00000 n 
+0000004348 00000 n 
+0000004526 00000 n 
+0000007436 00000 n 
+0000007595 00000 n 
+0000007755 00000 n 
+0000007955 00000 n 
+0000008124 00000 n 
+0000010713 00000 n 
+0000010885 00000 n 
+0000011040 00000 n 
+0000013476 00000 n 
+0000013637 00000 n 
+0000013792 00000 n 
+0000016306 00000 n 
+0000016467 00000 n 
+0000016622 00000 n 
+0000019387 00000 n 
+0000019548 00000 n 
+0000019721 00000 n 
+0000019883 00000 n 
+0000022619 00000 n 
+0000022780 00000 n 
+0000022935 00000 n 
+0000025544 00000 n 
+0000025716 00000 n 
+0000025871 00000 n 
+0000028390 00000 n 
+0000028539 00000 n 
+0000031340 00000 n 
+0000031499 00000 n 
+0000031654 00000 n 
+0000034370 00000 n 
+0000034531 00000 n 
+0000034686 00000 n 
+0000037455 00000 n 
+0000037614 00000 n 
+0000037772 00000 n 
+0000038003 00000 n 
+0000038172 00000 n 
+0000040887 00000 n 
+0000041036 00000 n 
+0000043693 00000 n 
+0000043842 00000 n 
+0000046595 00000 n 
+0000046759 00000 n 
+0000046914 00000 n 
+0000049720 00000 n 
+0000049898 00000 n 
+0000050063 00000 n 
+0000050225 00000 n 
+0000053001 00000 n 
+0000053160 00000 n 
+0000053315 00000 n 
+0000055903 00000 n 
+0000056052 00000 n 
+0000058951 00000 n 
+0000059129 00000 n 
+0000059289 00000 n 
+0000059449 00000 n 
+0000059610 00000 n 
+0000059786 00000 n 
+0000062482 00000 n 
+0000062641 00000 n 
+0000062799 00000 n 
+0000062961 00000 n 
+0000065726 00000 n 
+0000065925 00000 n 
+0000066086 00000 n 
+0000066240 00000 n 
+0000066409 00000 n 
+0000069276 00000 n 
+0000069435 00000 n 
+0000069593 00000 n 
+0000069793 00000 n 
+0000069954 00000 n 
+0000070130 00000 n 
+0000072867 00000 n 
+0000073016 00000 n 
+0000075547 00000 n 
+0000075706 00000 n 
+0000075861 00000 n 
+0000078524 00000 n 
+0000078681 00000 n 
+0000078836 00000 n 
+0000081756 00000 n 
+0000081957 00000 n 
+0000082103 00000 n 
+0000082252 00000 n 
+0000082421 00000 n 
+0000085022 00000 n 
+0000085172 00000 n 
+0000087902 00000 n 
+0000088053 00000 n 
+0000090743 00000 n 
+0000090894 00000 n 
+0000094746 00000 n 
+0000094925 00000 n 
+0000095086 00000 n 
+0000095247 00000 n 
+0000095413 00000 n 
+0000095576 00000 n 
+0000095737 00000 n 
+0000095896 00000 n 
+0000096097 00000 n 
+0000096259 00000 n 
+0000096414 00000 n 
+0000096577 00000 n 
+0000096751 00000 n 
+0000096983 00000 n 
+0000097186 00000 n 
+0000097333 00000 n 
+0000097483 00000 n 
+trailer
+<< /Size 123 /Root 1 0 R >>
+startxref
+97761
+%%EOF
