@@ -160,7 +160,7 @@ def fit(polys,x,y,w,h):
 def svg(mesh,c):
     polys=fit(projection(mesh),40,30,680,380)
     paths=''.join(f'<path d="M{p[0][0]:.2f},{p[0][1]:.2f} L{p[1][0]:.2f},{p[1][1]:.2f} L{p[2][0]:.2f},{p[2][1]:.2f}Z" fill="rgb{color}" stroke="rgb{color}" stroke-width=".25"/>' for p,color in polys)
-    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img"><title>{html.escape(c["title"])} – Rendering des exportierten OBJ-Modells</title><rect width="760" height="460" rx="16" fill="#10282d"/>{paths}<text x="28" y="440" fill="#b4d8c4" font-size="13" font-family="sans-serif">{c["code"]} · Eigenes 3D-Konzept · mm · Akustik ungeprüft</text></svg>'
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img"><title>{html.escape(c["title"])} – Rendering des exportierten OBJ-Modells</title><rect width="760" height="460" rx="16" fill="#10282d"/>{paths}<text x="28" y="440" fill="#b4d8c4" font-size="13" font-family="sans-serif">{c["code"]} · Eigenes 3D-Konzept · mm · Keine akustische Freigabe</text></svg>'
 
 def pdf_model(polys,x,y,w,h):
     ops=[]
@@ -171,9 +171,16 @@ def pdf_model(polys,x,y,w,h):
 
 def build_catalog(root,make_pdf):
     concepts=json.loads((root/'data/catalog.json').read_text());sources=json.loads((root/'data/sources.json').read_text())
+    result_path=root/'validation/results.json'
+    validation={r['id']:r for r in json.loads(result_path.read_text())['screening']} if result_path.exists() else {}
     modeldir=root/'models';renders=root/'docs/renders';modeldir.mkdir(exist_ok=True);renders.mkdir(exist_ok=True)
     library={};cards=[];markdown=['# Designkatalog · 12 Konzepte mit 3D-Modellen','Eigene Geometriestudien; Modellmaße sind frei gewählte Katalogparameter und keine Herstellermaße oder Abstrahlvorhersagen. Runde/ovale Hörner und Waveformer zur Wellenfrontumformung erfüllen unterschiedliche Aufgaben.','[PDF](designkatalog.pdf) · [Drehbare HTML-Ansicht](designkatalog.html) · [Modellhinweise](../models/README.md)'];pdf=[]
     for i,c in enumerate(concepts,1):
+        review=validation.get(c['id']);status=review.get('validation_status','Numerische Teilprüfung') if review else 'Noch keine numerische Prüfung'
+        review_note='LaVoce-Prüfstand: '+status
+        if review:
+            review_note+='; Prüfkandidat '+review['driver_model']+'.'
+            if review.get('outlet_tessellation_area_error_fraction',0)>.05:review_note+=f' Achtung: {review["outlet_tessellation_area_error_fraction"]*100:.1f}% Flächendefizit im groben Mundnetz.'
         mesh=generate(c);library[c['id']]={'vertices':mesh.vertices,'faces':mesh.faces,'parts':mesh.parts,'title':c['title']}
         (modeldir/(c['id']+'.obj')).write_text(obj(mesh,c),encoding='ascii')
         (modeldir/(c['id']+'.stl')).write_text(stl(mesh,c),encoding='ascii')
@@ -181,8 +188,9 @@ def build_catalog(root,make_pdf):
         dims=f'{c["width"]:g} × {c["height"]:g} × {c["length"]:g} mm'
         ref=' · '.join(f'<a href="{html.escape(s["url"])}">{s["id"]}</a>' for s in sources if s['id'] in c['refs'])
         cards.append(f'''<article class="card" id="{c['id']}" data-group="{c['group']}"><div class="card-head"><span>{c['group']} / {c['code']}</span><h2>{html.escape(c['title'])}</h2></div><button class="render-button" data-open="{c['id']}" aria-label="{html.escape(c['title'])} als drehbares 3D-Modell öffnen"><img src="renders/{c['id']}.svg" alt="3D-Rendering: {html.escape(c['title'])}" loading="lazy"><span>3D drehen ↗</span></button><div class="card-body"><p>{html.escape(c['description'])}</p><dl><dt>Modell-W × H × L, lichte Endmaße / axiale Länge</dt><dd>{dims}</dd><dt>Treiberbezug</dt><dd>{html.escape(c['driver'])}</dd><dt>Band / Einordnung</dt><dd>{html.escape(c['band'])}</dd></dl><p class="formula">{html.escape(c['formula'])}</p><details><summary>Entwicklungsstand und Grenzen</summary><p>{html.escape(c['risk'])}</p><p>{html.escape(c['missing'])}</p><p>Wandmodell: +4 mm auf die Halbachsen (+3 mm bei Zell-/Eingangskanälen); keine konstante Normalwandstärke. Keine Flanschbohrungen.</p><p>Quellen: {ref}</p></details><div class="actions"><button data-open="{c['id']}">3D-Ansicht</button><a href="../models/{c['id']}.obj" download>OBJ ↓</a><button data-stl="{c['id']}">STL ↓</button></div></div></article>''')
-        markdown += [f'## {c["code"]} · {c["title"]}',f'![3D-Rendering des Modells](renders/{c["id"]}.svg)',c['description'],f'**Modellmaße:** {dims}. **Treiberbezug:** {c["driver"]}.',f'**Band:** {c["band"]}',f'**Formel:** {c["formula"]}',f'**Prüfen:** {c["risk"]}',f'**Noch offen:** {c["missing"]}',f'[3D-Modell OBJ](../models/{c["id"]}.obj) · [STL mit GitHub-Vorschau](../models/{c["id"]}.stl) · [Interaktiv](designkatalog.html#{c["id"]}) · Quellen: '+', '.join(c['refs'])]
-        pdf.append(dict(page=i,title=c['title'],subtitle=f'{c["code"]} / {c["group"]} / eigenes Konzeptmodell',body=c['description']+'\nTreiberbezug: '+c['driver']+'.\n'+c['missing'],formula=dims+' (Modellmaße). '+c['formula'],check=c['risk'],refs=c['refs'],polygons=projection(mesh)))
+        cards[-1]=cards[-1].replace('<div class="card-body">','<div class="card-body"><p class="formula"><strong>'+html.escape(review_note)+'</strong> <a href="../validation/REPORT.md">Prüfbericht ↗</a></p>')
+        markdown += [f'## {c["code"]} · {c["title"]}',f'![3D-Rendering des Modells](renders/{c["id"]}.svg)',c['description'],f'**Modellmaße:** {dims}. **Treiberbezug:** {c["driver"]}.',f'**Band:** {c["band"]}',f'**Formel:** {c["formula"]}',f'**Prüfen:** {c["risk"]}',f'**Noch offen:** {c["missing"]}',f'**{review_note}** [Numerische Ergebnisse](../validation/REPORT.md)',f'[3D-Modell OBJ](../models/{c["id"]}.obj) · [STL mit GitHub-Vorschau](../models/{c["id"]}.stl) · [Interaktiv](designkatalog.html#{c["id"]}) · Quellen: '+', '.join(c['refs'])]
+        pdf.append(dict(page=i,title=c['title'],subtitle=f'{c["code"]} / {c["group"]} / eigenes Konzeptmodell',body=c['description']+'\nTreiberbezug: '+c['driver']+'.\n'+c['missing'],formula=dims+' (Modellmaße). '+c['formula'],check=c['risk']+' '+review_note,refs=c['refs'],polygons=projection(mesh)))
     (modeldir/'catalog-meshes.js').write_text('/* Own concept meshes; coordinates mm; not acoustically validated. */\nwindow.SPEAKER_MODELS='+json.dumps(library,separators=(',',':'),ensure_ascii=False)+';\n')
     template=(root/'scripts/catalog-template.html').read_text()
     (root/'docs/designkatalog.html').write_text(template.replace('<!--CARDS-->','\n'.join(cards)))
