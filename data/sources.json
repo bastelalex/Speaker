@@ -117,5 +117,33 @@
     "url": "https://github.com/gmsh-project/gmsh",
     "note": "Offizieller Read-only-Mirror; Hauptentwicklung auf GitLab. Netzgenerator, kein alleiniger Akustiksolver; siehe https://gmsh.info/.",
     "accessed": "2026-11-12"
+  },
+  {
+    "id": "A4",
+    "title": "Marcel Batík, OS-SE Waveguide, Grundformel des OS-Profils",
+    "url": "https://at-horns.eu/release/OS-SE%20Waveguide.pdf",
+    "note": "Primärdokumentation des Autors, Abschnitt 3: r_OS(z)=sqrt(r0²+z² tan²(alpha)). Das eigene Katalogmodell verwendet nur dieses abgeschnittene Grundprofil; keine OS-SE-Terminierung und kein fremdes CAD.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "P3",
+    "title": "US7510049B2, Acoustic transformer and method for transforming sound waves",
+    "url": "https://patents.google.com/patent/US7510049B2/en",
+    "note": "Primärpatent; Kreis-auf-Rechteck-Transformation mit interner Schallführung. Konzeptbeleg, keine kopierten Originalmaße oder Geometrien.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "P4",
+    "title": "EP1178702B1, Wave shaping sound chamber",
+    "url": "https://patents.google.com/patent/EP1178702B1/en",
+    "note": "Primärpatent; Kontrolle der Wellenfrontkrümmung für rechteckige bzw. schlitzförmige Kopplung. Ein reiner Katalog-Loft stellt die dort beschriebene akustische Funktion nicht automatisch her.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "J4",
+    "title": "JBL Professional, Directivity / Waveguide-Technologien",
+    "url": "https://jblpro.com/hi/innovation-directivity",
+    "note": "Herstellerhintergrund zu Konturübergängen und Richtwirkung. Katalog-Superellipse ist eine eigene mathematische Studie, keine Image-Control-Rekonstruktion. Direkter Seitenabruf 403; offizieller indexierter Inhalt gelesen.",
+    "accessed": "2026-11-12"
   }
 ]
