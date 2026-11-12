@@ -2,6 +2,8 @@
 
 [Illustrierter Katalog](../docs/designkatalog.md) · [HTML mit drehbarer Ansicht](../docs/designkatalog.html) · [PDF](../docs/designkatalog.pdf)
 
+**Erster numerischer Prüfstand:** [LaVoce-Validierungskampagne](../validation/REPORT.md). Die Untersuchung verwendet diese bestehenden Netze und dokumentiert ihre Grenzen. Insbesondere sind die Schlitzmündung zu grob facettiert, die OS-Zwischenkontur unzureichend aufgelöst und mehrere Verteiler/Adapter noch nicht vorhanden. Rundkonus, OS und Raketen-Ringkanal wurden zusätzlich axialsymmetrisch simuliert. Das ist keine Fertigungs- oder akustische Produktfreigabe.
+
 Jedes Konzept liegt als **ASCII-STL** und **OBJ** vor. GitHub kann die STL-Dateien direkt in seiner 3D-Vorschau anzeigen. Für die Offline-Ansicht das gesamte Repository als ZIP herunterladen, entpacken und `docs/designkatalog.html` öffnen. Das HTML lädt ausschließlich lokale Dateien. Die GitHub-Quelltextvorschau führt den HTML-Viewer nicht aus.
 
 | Konzept | STL mit GitHub-Vorschau | OBJ |
