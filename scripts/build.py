@@ -8,39 +8,6 @@ pages, sources, drivers = read('pages.json'), read('sources.json'), read('driver
 esc = html.escape
 CSS = '''@page{size:A4;margin:0}*{box-sizing:border-box}body{margin:0;background:#e7ece8;color:#10282d;font:16px/1.6 system-ui,sans-serif}header{padding:25px 7%;background:#10282d;color:#eff7f1}a{color:#136c60}nav a{color:#8ee0c1;margin-right:25px}.page{width:210mm;min-height:297mm;margin:20px auto;padding:18mm 19mm;background:#fff;position:relative;break-after:page}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#137762}h1{font-size:37px;line-height:1.12;margin:15px 0}h2{font-size:19px;font-weight:500;color:#527068}p{margin:16px 0}.formula{background:#e7f5ee;border-left:4px solid #117d65;padding:16px;font-size:17px}.check{border-top:1px solid #b9d0c4;padding-top:15px}.refs{font-size:11px;margin-top:20px}svg{width:100%;height:155px}.folio{font-size:12px;color:#63776c;margin-top:20px}@media print{header{display:none}body{background:white}.page{margin:0;height:297mm;min-height:0;overflow:hidden}}@media(max-width:800px){.page{width:auto;min-height:0;margin:12px;padding:25px}h1{font-size:30px}}'''
 
-families = [
- ('single','S-90 · Einzel-Waveguide','90° × 40° · 1200–18000 Hz · DN10.20-16',
-  'Einfacher Referenzentwurf für einen Treiber. Geradlinige Hülle mit separat zu konstruierendem Rund-auf-Rechteck-Halsübergang. Gut geeignet, um den eigenen Messaufbau und die Größenordnung des Aperturmodells zu prüfen.',
-  'W, H, L, Halsdurchmesser, Mundverrundung und Halsübergang',
-  'Große vertikale Apertur; unbewiesene Zielabstrahlung; Hals- und Mundreflexionen.',
-  'Räumliches Netz des gesamten Horns, vollständige Polaren, Impedanz und Verzerrung.',90,40,1200,18000,0),
- ('rocket','R-60 · Raketen-Ringkanal','60° × 40° · 800–16000 Hz · DN20.30TK',
-  'Konzept mit axialem Innenkörper. Die äußere Referenzhülle entspricht derselben Eingabe wie bei einem Einzelhorn. Der Innenkörper ist eine Funktionsskizze und besitzt keine abgeleiteten Fertigungsmaße. Verwandter historischer Nachweis: T2.',
-  'Außenradius R_a(x), Innenradius R_i(x), Einlauf, Endauslauf, Mindestspalt',
-  'Unbeabsichtigte Ringkanal-Engstelle, Moden, Reflexion am Innenkörperende.',
-  'Flächenverlauf und axialsymmetrische Studie; danach 3D bei nicht rotationssymmetrischem Mund.',60,40,800,16000,1),
- ('axe','A-90 · Axtkopf-Zweikanal','90° × 60° · 1200–16000 Hz · JBL 2426H',
-  'Zwei Hauptkanäle um einen keilförmigen Körper. Die Skizze beschreibt das Funktionsprinzip, keine vermessene Turbosound-Originalkontur. Das Beispiel P2 belegt den Formbegriff. Die Treiberschnittstelle bleibt extern; der interne Phaseplug wird nicht verändert.',
-  'S_links(x), S_rechts(x), Schneidenradius, Wegdifferenz, Zusammenführung',
-  'Asymmetrische Wellenfront, lokale Überhöhung, scharfe Übergänge.',
-  'Drei Schnittebenen, komplexe Felder vor und nach der Zusammenführung.',90,60,1200,16000,2),
- ('multi','M-60 · Multicell 3 × 2','60° × 40° · 1000–16000 Hz · JBL 2446H',
-  'Ein Treiber speist sechs Zellen über einen noch auszulegenden Verteiler. Das Raster zeigt eine erste Unterteilung der Außenapertur. Zellwände und Zellachsen sind im Hüllmaß nicht enthalten. Die Einzelzellwinkel folgen nicht automatisch aus dem Gesamtwinkel geteilt durch Zellzahl.',
-  '3 Spalten, 2 Reihen, Wandstärken, Zellachsen, Verteilerwege und Quellfläche',
-  'Interferenz, Zellgrenzen, ungleiche Wege und zu großer Bauraum.',
-  'Einzelzelle und vollständige Anordnung mit Verteiler getrennt und gemeinsam simulieren.',60,40,1000,16000,3),
- ('poly','P-25 · Polycell-Konzept','25° × 30° · 1600–16000 Hz · DN20.30TK',
-  'Arbeitsstudie für eine kontrollierte gemeinsame Ausgangswellenfront. Sechs symbolische Kanäle stehen für ein noch zu optimierendes Netzwerk. Der Winkel ist ein eigener Zielwert; die Studie ist kein TA-880-Nachbau. Polyhorn-Kontext: T1 und P1.',
-  'Ausgangsphase Φ(x,y), Kanalwege, Flächenverläufe, Zellmündungen, Arraykrümmung',
-  'Die Zielwellenfront wird geometrisch nicht automatisch erreicht; komplexe Kopplung.',
-  'Phase und Amplitude über der Apertur, Arrayüberlagerung und vollständige Polaren.',25,30,1600,16000,1),
- ('manifold','D-60 · Mehrtreiber-Manifold','60° × 40° · 2000–16000 Hz · JBL 2426H als Kanalreferenz',
-  'Konzept für mehrere identische Quellen mit zentralem Zusammenführungsbereich nach eigenständiger Auslegung. Die angegebenen Hüllmaße beziehen sich nur auf einen Referenzaustritt und legen weder Treiberzahl noch Gesamtfläche fest. T2 liefert einen historischen Funktionsbeleg.',
-  'Treiberzahl, Gesamtquellfläche, Eingangsachsen, identische Wege, gemeinsame Last',
-  'Gegenseitige Rückwirkung, komplexe elektrische Last, Phasendifferenzen.',
-  'Gekoppeltes Mehrquellenmodell und Messung jedes Kanals. Keine Watt- oder SPL-Addition.',60,40,2000,16000,2)
-]
-
 def diagram(kind='single'):
     lines='<path d="M90 100 L220 25 L510 25 L510 155 L220 155 Z" fill="none"/>'
     if kind=='rocket': lines+='<path d="M160 90 Q280 40 420 90 Q280 140 160 90 Z" fill="#9ad7bf"/>'
@@ -88,18 +55,24 @@ def make_pdf(ps,path):
             for line in textwrap.wrap(plain(para),87):text(50,y,line,10.5);y-=15
             y-=10
         if y<285: raise ValueError(f'Text overflow page {p["page"]}: {y}')
-        fy=min(y-8,310)
+        fy=min(y-8,520 if 'polygons' in p else 310)
         ops.append(f'0.9 0.96 0.92 rg 45 {fy-61} 505 70 re f')
         for i,line in enumerate(textwrap.wrap(plain(p['formula']),83)):text(57,fy-10-i*15,line,11,True)
         cy=fy-82
         for line in textwrap.wrap(plain(p['check']),88):text(50,cy,line,10);cy-=14
         # Vector concept illustration: all dimensions intentionally schematic.
-        ops.append('0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S')
+        if 'polygons' not in p: ops.append('0.1 0.45 0.36 RG 2 w 90 90 m 220 175 l 510 175 l 510 70 l 220 70 l h S')
         kind=p.get('kind') or ('rocket' if p['page']==10 else 'axe' if p['page']==11 else 'multi' if p['page']==15 else 'poly' if p['page']==16 else 'manifold' if p['page']==17 else 'single')
-        if kind in ('rocket','axe'):ops.append('180 122 m 340 157 l 430 122 l 340 88 l h S')
-        if kind in ('multi','poly'):ops.append('250 70 m 250 175 l S 370 70 m 370 175 l S 220 122 m 510 122 l S')
-        if kind=='manifold':ops.append('90 175 m 220 140 l S 90 70 m 220 105 l S 90 122 m 510 122 l S')
-        text(50,52,'Funktionsskizze: schematisch, keine Fertigungskontur.',8)
+        if 'polygons' not in p:
+            if kind in ('rocket','axe'):ops.append('180 122 m 340 157 l 430 122 l 340 88 l h S')
+            if kind in ('multi','poly'):ops.append('250 70 m 250 175 l S 370 70 m 370 175 l S 220 122 m 510 122 l S')
+            if kind=='manifold':ops.append('90 175 m 220 140 l S 90 70 m 220 105 l S 90 122 m 510 122 l S')
+        if 'polygons' in p:
+            from catalog_models import pdf_model
+            diagram_top=cy-20
+            if diagram_top<240: raise ValueError('Not enough room for 3D rendering')
+            ops.append(pdf_model(p['polygons'],50,842-diagram_top,495,diagram_top-85))
+        text(50,52,'Eigenes 3D-Konzeptmodell; keine akustische Validierung.' if 'polygons' in p else 'Funktionsskizze: schematisch, keine Fertigungskontur.',8)
         actual_sources=[s for s in sources if s['id'] in p['refs']]
         text(50,35,'Quellen:',7)
         for i,s in enumerate(actual_sources):text(85+i*26,35,s['id'],7)
@@ -117,24 +90,12 @@ def make_pdf(ps,path):
     data+=''.join(f'{n:010d} 00000 n \n' for n in offsets[1:]);data+=f'trailer\n<< /Size {len(objects)+1} /Root 1 0 R >>\nstartxref\n{start}\n%%EOF\n'
     path.write_text(data,encoding='ascii')
 
-def dimensions(h,v,lo,d):
-    w=max(d+.01,.603*343/lo/math.sin(math.radians(h/2)))
-    height=max(d+.01,.603*343/lo/math.sin(math.radians(v/2)))
-    length=max((w-d)/(2*math.tan(math.radians(h/2))),(height-d)/(2*math.tan(math.radians(v/2))))
-    return f'W {w*1000:.1f} × H {height*1000:.1f} × L {length*1000:.1f} mm'
-
 out=ROOT/'docs';out.mkdir(exist_ok=True)
 (out/'fachbroschuere.html').write_text(book_html(pages,'Horn-Waveguides · Fachbroschüre'),encoding='utf-8')
 (out/'fachbroschuere.md').write_text('# Horn-Waveguides · Fachbroschüre\n\n'+ '\n\n---\n\n'.join(f'## Seite {p["page"]}: {p["title"]}\n\n{p["subtitle"]}\n\n{p["body"]}\n\n**Formel / Modell:** {p["formula"]}\n\n**Prüfpunkt:** {p["check"]}\n\nQuellen: '+', '.join(p['refs']) for p in pages)+'\n\n[Quellenregister](quellen.md)\n',encoding='utf-8')
 make_pdf(pages,out/'fachbroschuere.pdf')
-catalog=[]
-for i,(kind,title,sub,body,params,risk,next_step,h,v,lo,hi,di) in enumerate(families,1):
-    dims=dimensions(h,v,lo,drivers[di]['throat_mm']/1000)
-    catalog.append(dict(page=i,kind=kind,title=title,subtitle=sub,body=body+'\nParameter: '+params+'.\nEntwicklungsrisiken: '+risk+'\nNächster Nachweis: '+next_step,formula=dims,check='E · eigene Konzeptstudie; Außenmaße nach Aperturmodell, keine geprüfte Innengeometrie. Familienzeichnung nicht maßstäblich.',refs=['T2' if kind in ('rocket','manifold') else 'P2' if kind=='axe' else 'T1' if kind=='poly' else 'A2',drivers[di]['source']]))
-catalog_html=book_html(catalog,'Waveguide-Designkatalog · 6 Familien')
-(out/'designkatalog.html').write_text(catalog_html,encoding='utf-8')
-make_pdf(catalog,out/'designkatalog.pdf')
-(out/'designkatalog.md').write_text('# Designkatalog · sechs Konzeptfamilien\n\n'+ '\n\n---\n\n'.join(f'## {p["title"]}\n\n{p["subtitle"]}\n\n{p["body"]}\n\n**Referenzhülle:** {p["formula"]}\n\n{p["check"]}' for p in catalog)+'\n\n[Quellen](quellen.md) · [Illustrierte Ausgabe](designkatalog.html)\n',encoding='utf-8')
+from catalog_models import build_catalog
+build_catalog(ROOT,make_pdf)
 (out/'quellen.md').write_text('# Quellenregister\n\nRecherche: 12.11.2026. Primärquellen, Zugriffslücken ausdrücklich markiert. Keine eigenen Messdaten. Quelleninhalte wurden zusammengefasst, keine Zeichnungen kopiert.\n\n'+ '\n\n'.join(f'## {s["id"]} · {s["title"]}\n\n[{s["title"]}]({s["url"]})\n\n{s["note"]}' for s in sources)+'\n',encoding='utf-8')
 
 template=(ROOT/'configurator/template.html').read_text()
@@ -145,4 +106,4 @@ app=app.replace('</script','<\\/script')
 template=template.replace('<!--DATA-->',f'<script id="drivers" type="application/json">{json.dumps(drivers,ensure_ascii=False)}</script><script id="sources" type="application/json">{json.dumps(sources,ensure_ascii=False)}</script>')
 template=template.replace('<!--APP-->',f'<script>{core}\n{app}</script>')
 (ROOT/'configurator/index.html').write_text(template,encoding='utf-8')
-print('Erzeugt: 30-seitige Fachbroschüre, 6-seitiger Designkatalog, Quellenregister und Offline-Konfigurator.')
+print('Erzeugt: 30-seitige Fachbroschüre, 12-seitiger 3D-Designkatalog, Quellenregister und Offline-Konfigurator.')
