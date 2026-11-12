@@ -334,7 +334,7 @@ Quellen: L1, L2, J1, J2
 
 Vom einfachen Referenzhorn zur komplexen Kanalführung
 
-Der Katalog enthält sechs Familien: geradliniger Einzel-Waveguide als Referenz, Raketen-Ringkanal, Axtkopf-Zweikanal, Multicell 3 × 2, Polycell-Konzept und Mehrtreiber-Manifold. Nur die erste Familie besitzt im Browser eine direkt berechnete Konturhülle. Bei den anderen Familien sind dieselben Außenmaße lediglich eine Bauraumreferenz; ihre inneren Konturen müssen zusätzlich entwickelt werden.
+Der erweiterte Katalog enthält zwölf Konzepte: Einzel-Waveguide, Raketen-Ringkanal, Axtkopf-Zweikanal, Multicell, Polycell, Mehrtreiber-Manifold, Rundkonus, rundes OS-Profil, Ellipse, Superellipse sowie prismatische Rechteck- und Rund-auf-Schlitz-Waveformer. Nur die erste Familie besitzt im Browser eine direkt berechnete Konturhülle. Bei den anderen Familien sind dieselben Außenmaße lediglich eine Bauraumreferenz; ihre inneren Konturen müssen zusätzlich entwickelt werden.
 Für jeden Entwurf stehen Zweck, Parameter, Treibervorschlag, Risiken und nächster Nachweis. Die gleichen Eingaben können bewusst mehrere Familien erzeugen, denn Abstrahlung und Band sind keine eindeutige Konstruktionsvorschrift. Als Entwicklungsstrategie dient ein gut messbarer Einzel-Waveguide als Referenz. Zusätzliche Körper und Zellen sollen einen konkret gemessenen Vorteil liefern, etwa bessere Wellenfrontanpassung oder geringere Bautiefe, und nicht nur komplexer aussehen.
 
 **Formel / Modell:** Vergleichsgrößen: Strahlbreite(f), Richtmaß(f), Impedanz(f), Verzerrung(P), Bauraum.
