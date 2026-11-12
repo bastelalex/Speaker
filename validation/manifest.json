@@ -1,0 +1,53 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "input_sha256": {
+    "data/catalog.json": "42ac5dec8e06e64a923df1cfa5e2a4752b448139e86096c0c580dbd7fe3250fd",
+    "data/drivers.json": "76e761d7365c7edc5c547e70a141574ef302729c2ab4b9edb5f283da41d40ee9",
+    "scripts/catalog_models.py": "99c15e0c67b9552af97d0e0b119a11eba553df6baac9a701ff290adf708823d5",
+    "validation/acoustics.py": "1d562f06f738c097386d17c091aefb915c59d0e77f6aa7314b82216bb56f51ea",
+    "validation/axisymmetric.py": "e75682efe8dc701f9a71f297f87be812f43ad5a7e68e94c634bf53afccc7d247",
+    "validation/run.py": "24e3e78d2b190739a9dabcbd9858715b5f9a7a26d3dd9bd0abc41670cc5d8204"
+  },
+  "runtime_seconds": 31.04,
+  "one_d_frequency_hz": {
+    "start": 200,
+    "stop": 20000,
+    "step": 25
+  },
+  "one_d_segments": 512,
+  "fem_cases_hz": {
+    "round-os": [
+      1200,
+      2000,
+      4000,
+      8000
+    ],
+    "round-conical": [
+      1200,
+      2000,
+      4000,
+      8000
+    ],
+    "rocket": [
+      800,
+      1200,
+      2000,
+      4000,
+      8000
+    ]
+  },
+  "fem_boundary": "rigid infinite mouth baffle; finite exterior; angle-aware spherical outgoing Robin condition; no PML; rigid closed inner body for rocket",
+  "field_method": "axisymmetric P1 FEM; complex mouth velocity from weak-interface reaction; Rayleigh far-field integral",
+  "geometry_approximation": "circular meridian interpolated from 9 catalogue axial rings; rocket insert meridian retained; 32-facet azimuthal tessellation replaced by continuous circles",
+  "limitations": [
+    "no electrical or mechanical LaVoce equivalent circuit",
+    "uniform prescribed exit velocity, unknown real driver exit wavefront",
+    "no nonlinear distortion or thermal compression",
+    "no validated output above 8 kHz",
+    "non-axisymmetric concepts have only reduced 1D screening",
+    "no complete systems for missing distributors, adapters or exploded interfaces"
+  ]
+}
