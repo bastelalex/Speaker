@@ -1,0 +1,121 @@
+[
+  {
+    "id": "T1",
+    "title": "Turbosound, ASPECT TA-880 System User Manual, Issue 1.5, Januar 2006",
+    "url": "https://www.fullcompass.com/common/files/17437-TA880UserManual.pdf",
+    "note": "Herstellerhandbuch auf Händlerarchiv; S. 7–8 Konzept, S. 12–13 Komponenten, S. 25 Arraywinkel. Keine vollständigen CAD-Maße.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "T2",
+    "title": "Turbosound, US4882562A, Adaptor for coupling plural compression drivers to a common horn",
+    "url": "https://patents.google.com/patent/US4882562A/en",
+    "note": "Primärpatent; zentraler Körper, ringförmiger Kanal und Mehrtreiber-Manifold. Keine pauschale Zuordnung jeder Raketenform.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "T3",
+    "title": "Turbosound, GB2404520A, Phase plug equalizer used as heat sink for loudspeaker",
+    "url": "https://patents.google.com/patent/GB2404520A/en",
+    "note": "Primärpatentanmeldung; Phaseplug und thermische Funktion. Keine vollständige Baureihenidentifikation.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "T4",
+    "title": "Horn loaded type loudspeaker, EP1315398B1",
+    "url": "https://patents.google.com/patent/EP1315398B1/en",
+    "note": "Turbosound-Patentfundstelle. Volltextzugriff im Recherchewerkzeug gescheitert; nicht als Maßquelle verwendet.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "P1",
+    "title": "GP Acoustics, US20210110808A1, Acoustic waveguides",
+    "url": "https://patents.google.com/patent/US20210110808A1/en",
+    "note": "Primärpatentanmeldung eines anderen Herstellers; Hintergrund nennt Multicell und Turbosound Polyhorn/toroidale Wellen. Kein Turbosound-Originalpatent.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "P2",
+    "title": "CN204425636U, A kind of axe formula phase plug",
+    "url": "https://patents.google.com/patent/CN204425636U/en",
+    "note": "Primärgebrauchsmuster; Beispiel einer Axtkopf-Geometrie. Kein Beleg für eine Turbosound-Zuordnung.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "L1",
+    "title": "LaVoce DN10.20-16 Produktdaten",
+    "url": "https://www.lavocespeakers.com/product/dn10-20/",
+    "note": "Live-Herstellerseite: 25,4 mm, 16 Ohm, 70 W AES, 140 W Program, 1–18 kHz, empfohlene Trennung 1200 Hz.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "L2",
+    "title": "LaVoce DN20.30TK Produktdaten",
+    "url": "https://lavocespeakers.com/product/dn20-30tk/",
+    "note": "Live-Herstellerseite: 50 mm, 8 Ohm, 110 W AES, 220 W Program, 0,5–20 kHz, empfohlene Trennung 800 Hz.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "J1",
+    "title": "JBL 2426H/J Spec Sheet",
+    "url": "https://adn.harmanpro.com/product_documents/documents/7602_1574029357/2426_original.pdf",
+    "note": "Hersteller-PDF, 2 Seiten; 25 mm, H=8/J=16 Ohm, 800 Hz mit mindestens 12 dB/Okt.; 70 W continuous program oberhalb 800 Hz.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "J2",
+    "title": "JBL 2446H/J Spec Sheet",
+    "url": "https://jblpro.com/en/product_documents/2446-pdf",
+    "note": "Offizielle Fundstelle und indexierte Daten gelesen; direkter PDF-Zugriff 403. 49 mm, 100 W continuous program oberhalb 500 Hz; 150 W oberhalb 1 kHz. Nicht als AES angeben.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "J3",
+    "title": "JBL 2446H/J Produktseite",
+    "url": "https://jblpro.com/en-US/products/2446h-j",
+    "note": "Offizielle indexierte Produktseite: 49-mm-Austritt, 111 dB auf 2380A. Direkter Abruf 403. Untere Einsatzgrenze im Konfigurator bewusst als Projektwert 800 Hz gesetzt.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "A1",
+    "title": "A. G. Webster (1919), Acoustical Impedance and the Theory of Horns and of the Phonograph",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1091593/",
+    "note": "Primärarbeit; DOI 10.1073/pnas.5.7.275. Grundlage des eindimensionalen Hornmodells.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "A2",
+    "title": "E. R. Geddes, Acoustic Waveguide Theory (AES)",
+    "url": "https://aes.org/publications/elibrary/elibrary-page/?id=6078",
+    "note": "Primärpublikation; Abstract beschreibt Grenzen der ebenen Wellenannahme bei richtenden Waveguides.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "A3",
+    "title": "COMSOL, Helmholtz Resonator Analyzed with Different Frequency Domain Solvers",
+    "url": "https://doc.comsol.com/6.4/doc/com.comsol.help.models.aco.helmholtz_resonator_solvers/helmholtz_resonator_solvers.html",
+    "note": "Offizielle Modelldokumentation: akustische Masse und Nachgiebigkeit; höhere Moden fehlen im konzentrierten Ersatzmodell.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "G1",
+    "title": "rafaelst00/Waveguide_PSO",
+    "url": "https://github.com/rafaelst00/Waveguide_PSO/tree/baefd510603ce75612bbed62191f5786c170c6b1",
+    "note": "GitHub-README und Commit geprüft. ATH + ABEC/AKABAK, PSO und Bewertung mehrerer Winkelebenen; externe Programme erforderlich; GUI-Automation plattformabhängig. Kein Code übernommen.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "G2",
+    "title": "bempp/bempp-cl",
+    "url": "https://github.com/bempp/bempp-cl",
+    "note": "GitHub-Projekt für Boundary-Element-Methoden; als weiterführender Solverpfad verlinkt, hier nicht ausgeführt.",
+    "accessed": "2026-11-12"
+  },
+  {
+    "id": "G3",
+    "title": "Gmsh Dokumentation / GitHub-Mirror",
+    "url": "https://github.com/gmsh-project/gmsh",
+    "note": "Offizieller Read-only-Mirror; Hauptentwicklung auf GitLab. Netzgenerator, kein alleiniger Akustiksolver; siehe https://gmsh.info/.",
+    "accessed": "2026-11-12"
+  }
+]
